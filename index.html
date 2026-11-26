@@ -1,0 +1,2941 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>JCB Solapur Enterprises | सोलापूर इंटरप्रायझेस — Vasant Vihar, Solapur</title>
+<link href="assest/image/logo.png" rel="icon">
+<meta name="description" content="Visit JCB Solapur Enterprises (सोलापूर इंटरप्रायझेस) at Vasant Vihar, Solapur 413001. Solapur's #1 JCB Spare Parts & Repairing Workshop. Open daily 10:00 AM to 11:30 PM.">
+<meta name="google-site-verification" content="QZK7hxvcYf4QlVUAJz-8iBtB4m5w-es-P5mmwW1hmSk" />
+<!-- Preconnect -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://cdnjs.cloudflare.com">
+
+<!-- Typography & Icons -->
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow+Condensed:wght@500;600;700;800;900&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;700&family=Noto+Sans+Devanagari:wght@600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tone/14.8.49/Tone.js"></script>
+
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        colors: {
+          jcb: '#F9C000',
+          jcbDark: '#D99B00',
+          accent: '#FF6B00',
+          obsidian: '#06070B',
+          slateDark: '#0C1018',
+          cardBg: '#121724',
+          shutter: '#742A24'
+        },
+        fontFamily: {
+          display: ['"Bebas Neue"', '"Noto Sans Devanagari"', 'sans-serif'],
+          cond: ['"Barlow Condensed"', '"Noto Sans Devanagari"', 'sans-serif'],
+          sans: ['Inter', '"Noto Sans Devanagari"', 'system-ui', 'sans-serif'],
+          mono: ['"JetBrains Mono"', 'monospace'],
+          mr: ['"Noto Sans Devanagari"', 'sans-serif']
+        }
+      }
+    }
+  };
+</script>
+
+<style>
+  :root {
+    --jcb: #F9C000;
+    --acc: #FF6B00;
+    --dark: #06070B;
+  }
+
+  * { box-sizing: border-box; }
+  html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    max-width: 100vw;
+    overflow-x: hidden;
+    background-color: var(--dark);
+    color: #f8fafc;
+    font-family: 'Inter', 'Noto Sans Devanagari', system-ui, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -webkit-tap-highlight-color: transparent;
+    touch-action: manipulation;
+  }
+  img, video, canvas, iframe, svg { max-width: 100%; }
+  body.loading-lock { overflow: hidden; height: 100dvh; }
+  ::selection { background: var(--jcb); color: #06070B; }
+
+  ::-webkit-scrollbar { width: 6px; }
+  ::-webkit-scrollbar-track { background: #090b10; }
+  ::-webkit-scrollbar-thumb { background: linear-gradient(var(--jcb), var(--acc)); border-radius: 99px; }
+
+  /* ==================== CINEMATIC REAL-SHOP LOADER ==================== */
+  #jcb-loader-root {
+    position: fixed;
+    inset: 0;
+    z-index: 99999;
+    background: #06080f;
+    transition: opacity 0.75s cubic-bezier(0.22, 1, 0.36, 1), visibility 0s linear 0.75s;
+    user-select: none;
+  }
+  #jcb-loader-root.gone {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+  }
+  #loader-canvas {
+    display: block;
+    width: 100%;
+    height: 100%;
+    will-change: transform, opacity;
+  }
+  .hud-glass {
+    background: rgba(8, 12, 22, 0.78);
+    backdrop-filter: blur(14px);
+    -webkit-backdrop-filter: blur(14px);
+    border: 1px solid rgba(255, 255, 255, 0.14);
+    box-shadow: 0 12px 36px rgba(0, 0, 0, 0.55);
+  }
+  .hud-fade { transition: opacity 0.4s ease, transform 0.4s ease; }
+  #jcb-loader-root.zooming .hud-fade {
+    opacity: 0;
+    transform: translateY(10px);
+    pointer-events: none;
+  }
+  .hazard-stripe {
+    background: repeating-linear-gradient(-45deg, #F9C000, #F9C000 8px, #111827 8px, #111827 16px);
+  }
+  @keyframes ledPulse {
+    0%, 100% { opacity: 1; box-shadow: 0 0 10px currentColor; }
+    50% { opacity: 0.35; box-shadow: 0 0 3px currentColor; }
+  }
+  .led-pulse { animation: ledPulse 1.2s ease-in-out infinite; }
+
+  /* ==================== MAIN WEBSITE AESTHETICS ==================== */
+  #site-wrapper { opacity: 0; transition: opacity 0.6s ease; }
+  #site-wrapper.ready { opacity: 1; }
+
+  .glass-card {
+    background: linear-gradient(155deg, rgba(22, 28, 44, 0.88), rgba(10, 13, 22, 0.94));
+    backdrop-filter: blur(18px);
+    -webkit-backdrop-filter: blur(18px);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    box-shadow: 0 18px 46px rgba(0, 0, 0, 0.5), inset 0 1px 0 rgba(255, 255, 255, 0.06);
+  }
+
+  .spotlight-card { position: relative; overflow: hidden; }
+  .spotlight-card::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(360px circle at var(--mx, 50%) var(--my, 50%), rgba(249, 192, 0, 0.14), transparent 60%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    pointer-events: none;
+    z-index: 1;
+  }
+  .spotlight-card:hover::before { opacity: 1; }
+  .spotlight-card > * { position: relative; z-index: 2; }
+
+  .btn-jcb {
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(135deg, #FDE047 0%, #F9C000 45%, #FF6B00 100%);
+    color: #06070B;
+    font-family: 'Barlow Condensed', 'Noto Sans Devanagari', sans-serif;
+    font-weight: 900;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    clip-path: polygon(10px 0, 100% 0, calc(100% - 10px) 100%, 0 100%);
+    box-shadow: 0 10px 28px rgba(249, 192, 0, 0.35);
+    transition: transform 0.25s cubic-bezier(0.175, 0.885, 0.32, 1.275), box-shadow 0.25s ease;
+  }
+  .btn-jcb::after {
+    content: '';
+    position: absolute;
+    top: -50%; left: -75%;
+    width: 45%; height: 200%;
+    background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.55), transparent);
+    transform: skewX(-24deg);
+    transition: left 0.55s ease;
+    pointer-events: none;
+  }
+  .btn-jcb:hover::after { left: 135%; }
+  .btn-jcb:hover {
+    transform: translateY(-2px) scale(1.02);
+    box-shadow: 0 14px 36px rgba(249, 192, 0, 0.55);
+  }
+
+  @keyframes goldFlow {
+    0%, 100% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+  }
+  .text-gold-flow {
+    background: linear-gradient(90deg, #FDE047, #F9C000, #FF6B00, #FDE047);
+    background-size: 220% auto;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    animation: goldFlow 4s ease-in-out infinite;
+  }
+
+  .filter-pill.active {
+    background: linear-gradient(135deg, #F9C000, #FF6B00);
+    color: #06070B;
+    border-color: transparent;
+    font-weight: 800;
+    box-shadow: 0 6px 18px rgba(249, 192, 0, 0.32);
+  }
+
+  .dispatch-chip.selected {
+    background: rgba(249, 192, 0, 0.18);
+    border-color: #F9C000;
+    color: #FDE047;
+    box-shadow: 0 0 16px rgba(249, 192, 0, 0.22);
+  }
+
+  @keyframes hotspotRing {
+    0% { transform: scale(0.95); opacity: 0.9; }
+    70% { transform: scale(1.9); opacity: 0; }
+    100% { transform: scale(1.9); opacity: 0; }
+  }
+  .hotspot-btn {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+  }
+  .hotspot-btn::before {
+    content: '';
+    position: absolute;
+    inset: -5px;
+    border-radius: 9999px;
+    border: 2px solid #F9C000;
+    animation: hotspotRing 1.8s ease-out infinite;
+  }
+  .hotspot-btn.active {
+    background: #F9C000 !important;
+    color: #06070B !important;
+    transform: translate(-50%, -50%) scale(1.18);
+    box-shadow: 0 0 24px rgba(249, 192, 0, 0.9);
+  }
+
+  .hero-grid-bg {
+    background-image:
+      linear-gradient(rgba(249, 192, 0, 0.045) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(249, 192, 0, 0.045) 1px, transparent 1px);
+    background-size: 48px 48px;
+    mask-image: radial-gradient(ellipse at center, black 35%, transparent 78%);
+    -webkit-mask-image: radial-gradient(ellipse at center, black 35%, transparent 78%);
+  }
+
+  .hero-title-fluid {
+    font-size: clamp(2.6rem, 9vw, 6rem);
+    line-height: 0.92;
+  }
+
+  @media (max-width: 639px) {
+    #site-wrapper { padding-bottom: 78px; }
+  }
+
+  .reveal {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s cubic-bezier(0.16, 1, 0.3, 1), transform 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+  .reveal.in-view { opacity: 1; transform: translateY(0); }
+
+  #toast {
+    position: fixed;
+    bottom: 1.5rem;
+    left: 50%;
+    transform: translateX(-50%) translateY(20px);
+    opacity: 0;
+    pointer-events: none;
+    z-index: 100000;
+    transition: opacity 0.25s ease, transform 0.25s ease;
+  }
+  #toast.show { opacity: 1; transform: translateX(-50%) translateY(0); }
+
+  #scroll-progress {
+    position: fixed;
+    top: 0; left: 0;
+    height: 3px; width: 0%;
+    background: linear-gradient(90deg, #F9C000, #FF6B00);
+    z-index: 9000;
+    box-shadow: 0 0 10px rgba(249, 192, 0, 0.7);
+  }
+
+  .modal-backdrop {
+    display: none;
+    position: fixed;
+    inset: 0;
+    z-index: 99990;
+    background: rgba(4, 6, 12, 0.94);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    align-items: center;
+    justify-content: center;
+  }
+  .modal-backdrop.open { display: flex; }
+
+  /* 3D Part Card Canvas Container */
+  .part-3d-box {
+    position: relative;
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    background: radial-gradient(circle at 50% 38%, #1e293b 0%, #090d16 88%);
+    cursor: grab;
+    touch-action: pan-y;
+  }
+  .part-3d-box:active { cursor: grabbing; }
+  .part-3d-box canvas {
+    display: block;
+    width: 100% !important;
+    height: 100% !important;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+</style>
+</head>
+<body class="loading-lock">
+
+<!-- Scroll Progress Bar -->
+<div id="scroll-progress"></div>
+
+<!-- ==========================================================================
+     PART 1: REALISTIC DUAL-GATE SHOP LOADER (GATE 1: JCB REPAIR | GATE 2: PARTS COUNTER)
+     ========================================================================== -->
+<div id="jcb-loader-root" role="progressbar" aria-label="Entering JCB Solapur Enterprises" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+  <canvas id="loader-canvas"></canvas>
+
+  <!-- Responsive Top Bar -->
+  <header class="hud-fade fixed top-2.5 sm:top-4 left-2.5 right-2.5 sm:left-5 sm:right-5 flex flex-wrap items-center justify-between gap-2 pointer-events-none">
+    <div class="hud-glass rounded-2xl px-3 py-2 flex items-center gap-2.5 pointer-events-auto max-w-full">
+      <div class="w-8 h-8 rounded-xl bg-gradient-to-br from-yellow-400 to-orange-500 flex items-center justify-center font-black text-slate-950 text-xs font-mono overflow-hidden shrink-0">
+        <img src="assest/image/logo.png" alt="SE" class="w-full h-full object-contain p-0.5" onerror="this.style.display='none';this.parentElement.textContent='SE'">
+      </div>
+      <div class="leading-tight min-w-0">
+        <div class="text-[11px] sm:text-xs font-bold text-amber-300 tracking-wider font-mr truncate">सोलापूर इंटरप्रायझेस • SOLAPUR ENTERPRISES</div>
+        <div class="flex items-center gap-1.5 text-[10px] text-slate-300 font-mono">
+          <span>Vasant Vihar, Solapur</span>
+          <span class="text-slate-600">•</span>
+          <span id="hud-weather-badge" class="text-emerald-300 font-bold">WINTER • 19°C</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="flex items-center gap-1.5 pointer-events-auto">
+      <div class="hud-glass rounded-xl p-1 flex items-center gap-1 text-[10px] font-mono">
+        <button data-theme="summer" type="button" class="theme-btn px-2 sm:px-2.5 py-1 rounded-lg text-slate-300 hover:text-white cursor-pointer transition inline-flex items-center gap-1" title="Solapur Summer">
+          <i class="fas fa-sun text-amber-400"></i><span class="hidden xs:inline sm:inline">SUMMER</span>
+        </button>
+        <button data-theme="rainy" type="button" class="theme-btn px-2 sm:px-2.5 py-1 rounded-lg text-slate-300 hover:text-white cursor-pointer transition inline-flex items-center gap-1" title="Solapur Monsoon Rain">
+          <i class="fas fa-cloud-showers-heavy text-sky-400"></i><span class="hidden xs:inline sm:inline">RAINY</span>
+        </button>
+        <button data-theme="winter" type="button" class="theme-btn px-2 sm:px-2.5 py-1 rounded-lg bg-amber-400 text-slate-950 font-bold cursor-pointer transition inline-flex items-center gap-1" title="Solapur Winter Fog">
+          <i class="fas fa-snowflake text-cyan-700"></i><span class="hidden xs:inline sm:inline">WINTER</span>
+        </button>
+      </div>
+      <button id="btn-loader-horn" type="button" class="hud-glass rounded-xl px-2.5 sm:px-3 py-1.5 text-[10px] sm:text-[11px] font-mono font-bold text-amber-300 hover:bg-amber-400 hover:text-slate-950 transition cursor-pointer inline-flex items-center gap-1" title="Honk JCB Air Horn">
+        <i class="fas fa-bullhorn"></i><span class="hidden sm:inline">HORN</span>
+      </button>
+      <button id="btn-loader-sound" type="button" class="hud-glass rounded-xl px-2.5 py-1.5 text-[10px] sm:text-[11px] font-mono font-bold text-emerald-300 hover:bg-white/10 transition cursor-pointer" title="Toggle JCB Engine & Horn Sound">
+        <i id="loader-sound-icon" class="fas fa-volume-up"></i>
+      </button>
+      <button id="btn-express" type="button" class="hud-glass rounded-xl px-3 py-1.5 text-[10px] sm:text-[11px] font-mono font-bold text-yellow-300 hover:bg-white/10 transition cursor-pointer">
+        ENTER »
+      </button>
+    </div>
+  </header>
+
+  <!-- Compact Smart Telemetry & Dual-Gate Status Bar -->
+  <footer class="hud-fade fixed bottom-3 sm:bottom-5 left-3 right-3 sm:left-6 sm:right-6 pointer-events-none">
+    <div class="max-w-2xl mx-auto hud-glass rounded-2xl overflow-hidden pointer-events-auto">
+      <div class="h-1 w-full hazard-stripe"></div>
+      <div class="px-3.5 sm:px-4 py-2.5 sm:py-3">
+        <div class="flex items-center justify-between gap-3 mb-2">
+          <div class="min-w-0 flex-1">
+            <div class="flex items-center gap-2 mb-0.5">
+              <span id="status-led" class="w-2 h-2 rounded-full bg-amber-400 led-pulse shrink-0"></span>
+              <span id="hud-phase" class="text-[10px] font-mono font-bold uppercase tracking-widest text-emerald-300 truncate">GATE 1: JCB REPAIR BAY • GATE 2: PARTS COUNTER</span>
+            </div>
+            <div id="hud-msg" class="text-xs sm:text-sm font-medium text-white truncate">Driving JCB 3DX towards Solapur Enterprises Workshop...</div>
+          </div>
+          <div class="text-right shrink-0">
+            <div id="hud-speed" class="text-[10px] font-mono text-slate-400">44 km/h</div>
+            <div id="hud-pct" class="text-lg sm:text-xl font-extrabold font-mono text-jcb tabular-nums leading-none">0%</div>
+          </div>
+        </div>
+        <div class="h-2 w-full rounded-full bg-white/10 overflow-hidden">
+          <div id="hud-bar" class="h-full w-full rounded-full bg-gradient-to-r from-yellow-400 via-amber-500 to-emerald-400 origin-left" style="transform: scaleX(0);"></div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</div>
+
+<!-- ==========================================================================
+     PART 2: OFFICIAL PROMOTIONAL WEBSITE
+     ========================================================================== -->
+<div id="site-wrapper">
+
+  <!-- TOP PROMO STRIP -->
+  <div class="bg-gradient-to-r from-yellow-400 via-amber-400 to-orange-500 text-slate-950 text-xs sm:text-sm font-bold py-2 px-3 sm:px-4 relative z-40">
+    <div class="max-w-7xl mx-auto flex flex-wrap items-center justify-between gap-2">
+      <div class="flex items-center gap-2 font-cond tracking-wider uppercase text-[11px] sm:text-sm">
+        <i class="fas fa-location-dot"></i>
+        <span>Vasant Vihar, Solapur 413001</span>
+        <span class="opacity-50">|</span>
+        <span>Open Daily: 10:00 AM – 11:30 PM</span>
+      </div>
+      <div class="flex items-center gap-1.5 sm:gap-2 font-mono text-[11px]">
+        <button id="lang-toggle" type="button" class="bg-black/15 hover:bg-black/25 px-2.5 py-1 rounded-full transition cursor-pointer font-mr font-bold" title="Switch English / Marathi">
+          मराठी / EN
+        </button>
+        <button id="btn-top-horn" type="button" class="bg-slate-950/90 hover:bg-slate-800 text-yellow-400 px-2.5 py-1 rounded-full transition cursor-pointer inline-flex items-center gap-1 font-bold" title="Play JCB Air Horn">
+          <i class="fas fa-bullhorn"></i> Horn
+        </button>
+        <a href="tel:+917028752721" class="inline-flex items-center gap-1.5 bg-slate-950 text-yellow-400 px-3 py-1 rounded-full hover:bg-slate-800 transition">
+          <i class="fas fa-phone-alt"></i> +91 70287 52721
+        </a>
+        <button id="btn-replay-top" type="button" class="inline-flex items-center gap-1 bg-black/15 hover:bg-black/25 px-2.5 py-1 rounded-full transition cursor-pointer" title="Replay JCB Shop Intro">
+          <i class="fas fa-play text-[9px]"></i> Intro
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- STICKY NAVIGATION -->
+  <nav id="main-nav" class="sticky top-0 z-50 transition-all duration-300 bg-obsidian/90 backdrop-blur-xl border-b border-white/10">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-16 sm:h-20">
+        <!-- Brand -->
+        <a href="#hero" class="flex items-center gap-2.5 group min-w-0">
+          <img src="assest/image/logo.png" alt="JCB Solapur Enterprises" class="w-9 h-9 sm:w-11 sm:h-11 object-contain drop-shadow-[0_0_12px_rgba(249,192,0,0.75)] transition group-hover:scale-105 shrink-0" onerror="this.style.display='none'">
+          <span class="px-2 sm:px-2.5 py-1 bg-gradient-to-r from-jcb to-accent text-obsidian font-display text-base sm:text-lg tracking-wider shrink-0" style="clip-path:polygon(6px 0,100% 0,calc(100% - 6px) 100%,0 100%)">JCB</span>
+          <div class="leading-none truncate">
+            <div class="font-display text-lg sm:text-2xl tracking-widest text-jcb">SOLAPUR</div>
+            <div class="text-[10px] tracking-[0.2em] text-slate-300 font-mr font-bold truncate">सोलापूर इंटरप्रायझेस</div>
+          </div>
+        </a>
+
+        <!-- Desktop Nav Links -->
+        <div class="hidden lg:flex items-center gap-1">
+          <a href="#hero" class="px-2.5 py-2 text-xs font-cond font-bold tracking-widest uppercase text-slate-300 hover:text-jcb transition">Home</a>
+          <a href="#explorer" class="px-2.5 py-2 text-xs font-cond font-bold tracking-widest uppercase text-slate-300 hover:text-jcb transition">JCB Explorer</a>
+          <a href="#services" class="px-2.5 py-2 text-xs font-cond font-bold tracking-widest uppercase text-slate-300 hover:text-jcb transition">Services</a>
+          <a href="#parts" class="px-2.5 py-2 text-xs font-cond font-bold tracking-widest uppercase text-slate-300 hover:text-jcb transition">3D Parts</a>
+          <a href="#gallery" class="px-2.5 py-2 text-xs font-cond font-bold tracking-widest uppercase text-slate-300 hover:text-jcb transition">Photos</a>
+          <a href="#videos" class="px-2.5 py-2 text-xs font-cond font-bold tracking-widest uppercase text-slate-300 hover:text-jcb transition">Videos</a>
+          <a href="#reviews" class="px-2.5 py-2 text-xs font-cond font-bold tracking-widest uppercase text-slate-300 hover:text-jcb transition">Reviews</a>
+          <span id="live-shop-badge" class="ml-2 px-2.5 py-1 rounded-full bg-emerald-500/15 border border-emerald-400/35 text-emerald-300 text-[10px] font-mono font-bold uppercase tracking-wider inline-flex items-center gap-1.5">
+            <span class="w-1.5 h-1.5 rounded-full bg-emerald-400 led-pulse"></span> OPEN NOW
+          </span>
+          <a href="#contact" class="ml-2 btn-jcb px-5 py-2.5 text-sm inline-flex items-center gap-2">
+            <i class="fas fa-location-arrow"></i> Visit Shop
+          </a>
+        </div>
+
+        <!-- Mobile Menu Button -->
+        <button id="mobile-menu-btn" type="button" class="lg:hidden p-2.5 rounded-xl bg-white/5 border border-jcb/40 text-jcb hover:bg-jcb hover:text-obsidian transition cursor-pointer" aria-label="Menu">
+          <i class="fas fa-bars text-lg"></i>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Dropdown -->
+    <div id="mobile-menu" class="hidden lg:hidden bg-slateDark/95 backdrop-blur-2xl border-t border-jcb/20 px-4 pt-3 pb-5 space-y-2">
+      <div class="px-4 py-2 rounded-xl bg-emerald-500/10 border border-emerald-400/30 text-emerald-300 text-xs font-mono font-bold text-center">
+        Open Daily: 10:00 AM – 11:30 PM • Vasant Vihar, Solapur
+      </div>
+      <a href="#hero" class="mobile-nav-link block px-4 py-2.5 rounded-xl bg-white/5 text-sm font-cond font-bold tracking-widest uppercase text-slate-200 hover:text-jcb">Home</a>
+      <a href="#explorer" class="mobile-nav-link block px-4 py-2.5 rounded-xl bg-white/5 text-sm font-cond font-bold tracking-widest uppercase text-slate-200 hover:text-jcb">Interactive JCB 3DX Explorer</a>
+      <a href="#services" class="mobile-nav-link block px-4 py-2.5 rounded-xl bg-white/5 text-sm font-cond font-bold tracking-widest uppercase text-slate-200 hover:text-jcb">Workshop Services</a>
+      <a href="#parts" class="mobile-nav-link block px-4 py-2.5 rounded-xl bg-white/5 text-sm font-cond font-bold tracking-widest uppercase text-slate-200 hover:text-jcb">3D Spare Parts Showcase</a>
+      <a href="#visit-planner" class="mobile-nav-link block px-4 py-2.5 rounded-xl bg-white/5 text-sm font-cond font-bold tracking-widest uppercase text-slate-200 hover:text-jcb">Plan Your Shop Visit</a>
+      <a href="#gallery" class="mobile-nav-link block px-4 py-2.5 rounded-xl bg-white/5 text-sm font-cond font-bold tracking-widest uppercase text-slate-200 hover:text-jcb">Shop Photos (30)</a>
+      <a href="#videos" class="mobile-nav-link block px-4 py-2.5 rounded-xl bg-white/5 text-sm font-cond font-bold tracking-widest uppercase text-slate-200 hover:text-jcb">Work Videos (10)</a>
+      <a href="#contact" class="mobile-nav-link block px-4 py-2.5 rounded-xl bg-white/5 text-sm font-cond font-bold tracking-widest uppercase text-slate-200 hover:text-jcb">Location &amp; Map</a>
+      <div class="pt-2 flex gap-2">
+        <a href="https://maps.google.com/?q=17.69046344689172,75.88606981440701" target="_blank" rel="noopener" class="flex-1 text-center btn-jcb py-3 text-sm">Directions</a>
+        <a href="tel:+917028752721" class="flex-1 text-center py-3 rounded-xl bg-emerald-500 text-slate-950 font-bold text-sm">Call Shop</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ==================== HERO SECTION ==================== -->
+  <section id="hero" class="relative min-h-[88vh] flex items-center overflow-hidden bg-[radial-gradient(ellipse_at_75%_35%,#271802_0%,#06070B_65%)] py-10 sm:py-16">
+    <canvas id="hero-sparks" class="absolute inset-0 w-full h-full pointer-events-none opacity-65"></canvas>
+    <div class="hero-grid-bg absolute inset-0 pointer-events-none"></div>
+    <div class="absolute -top-32 -left-32 w-[420px] h-[420px] rounded-full bg-jcb/12 blur-[120px] pointer-events-none"></div>
+
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 w-full">
+      <div class="grid lg:grid-cols-12 gap-8 lg:gap-10 items-center">
+        <!-- Left Promotional Copy -->
+        <div class="lg:col-span-6 text-center lg:text-left space-y-5">
+          <div class="inline-flex flex-wrap items-center justify-center lg:justify-start gap-2">
+            <span class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-jcb/10 border border-jcb/40 text-jcb text-xs font-cond font-bold tracking-[0.16em] uppercase">
+              <span class="w-2 h-2 rounded-full bg-jcb led-pulse"></span>
+              <span data-i18n="hero_badge">Solapur's #1 Real JCB Workshop &amp; Parts Shop</span>
+            </span>
+            <span class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-emerald-500/15 border border-emerald-400/35 text-emerald-300 text-[11px] font-mono font-bold">
+              <i class="fas fa-store"></i> Walk-In Service Hub
+            </span>
+          </div>
+
+          <h1 class="font-display hero-title-fluid tracking-wide text-white drop-shadow-[0_14px_34px_rgba(0,0,0,0.9)]">
+            <span data-i18n="hero_title_1">JCB</span> <span class="text-gold-flow" data-i18n="hero_title_2">SOLAPUR</span><br>
+            <span class="text-transparent" style="-webkit-text-stroke: 2px rgba(255,255,255,0.34);" data-i18n="hero_title_3">ENTERPRISES</span>
+          </h1>
+
+          <div class="font-mr text-base sm:text-xl font-extrabold text-amber-300/95 tracking-wide">
+            सोलापूर इंटरप्रायझेस — वसंत विहार, सोलापूर ४१३००१
+          </div>
+
+          <p class="text-sm sm:text-base text-slate-300/95 max-w-xl mx-auto lg:mx-0 leading-relaxed" data-i18n="hero_desc">
+            Drive your JCB 3DX, 3CX, 4CX or JS Excavator directly to our Vasant Vihar workshop. We keep 2,000+ genuine OEM spare parts ready on our shelves along with expert hydraulic, engine, gearbox, fuel injection &amp; welding specialists — open daily <strong class="text-emerald-300">10:00 AM to 11:30 PM</strong>.
+          </p>
+
+          <!-- Visit-First Promotional CTAs -->
+          <div class="flex flex-wrap items-center justify-center lg:justify-start gap-2.5 sm:gap-3 pt-1">
+            <a href="https://maps.google.com/?q=17.69046344689172,75.88606981440701" target="_blank" rel="noopener" class="btn-jcb px-6 sm:px-7 py-3.5 text-sm sm:text-base inline-flex items-center gap-2">
+              <i class="fas fa-directions"></i> <span data-i18n="cta_directions">Get Shop Directions</span>
+            </a>
+            <a href="tel:+917028752721" class="px-5 sm:px-6 py-3.5 rounded-xl bg-white/10 hover:bg-jcb hover:text-obsidian border border-jcb/40 text-jcb font-cond font-extrabold text-sm sm:text-base tracking-widest uppercase transition inline-flex items-center gap-2">
+              <i class="fas fa-phone-alt"></i> +91 70287 52721
+            </a>
+            <a href="https://wa.me/917028752721?text=Hello%20JCB%20Solapur%20Enterprises%2C%20I%20am%20visiting%20your%20Vasant%20Vihar%20shop%20for%20JCB%20parts%20%2F%20repair." target="_blank" rel="noopener" class="px-5 py-3.5 rounded-xl bg-emerald-500/15 hover:bg-emerald-500 hover:text-slate-950 border border-emerald-400/40 text-emerald-300 font-cond font-bold text-sm sm:text-base tracking-widest uppercase transition inline-flex items-center gap-2">
+              <i class="fab fa-whatsapp text-lg"></i> WhatsApp
+            </a>
+          </div>
+
+          <!-- Real Trust Counters -->
+          <div class="grid grid-cols-2 sm:grid-cols-4 gap-2.5 sm:gap-3 pt-5 border-t border-white/10">
+            <div class="glass-card spotlight-card rounded-2xl p-3 text-center lg:text-left">
+              <div class="font-display text-3xl sm:text-4xl text-jcb leading-none"><span class="counter" data-target="15">0</span>+</div>
+              <div class="font-cond text-[11px] tracking-widest text-slate-400 uppercase mt-1">Years Trust</div>
+            </div>
+            <div class="glass-card spotlight-card rounded-2xl p-3 text-center lg:text-left">
+              <div class="font-display text-3xl sm:text-4xl text-jcb leading-none"><span class="counter" data-target="2000">0</span>+</div>
+              <div class="font-cond text-[11px] tracking-widest text-slate-400 uppercase mt-1">Shelf Parts</div>
+            </div>
+            <div class="glass-card spotlight-card rounded-2xl p-3 text-center lg:text-left">
+              <div class="font-display text-3xl sm:text-4xl text-jcb leading-none"><span class="counter" data-target="1000">0</span>+</div>
+              <div class="font-cond text-[11px] tracking-widest text-slate-400 uppercase mt-1">JCB Owners</div>
+            </div>
+            <div class="glass-card spotlight-card rounded-2xl p-3 text-center lg:text-left">
+              <div class="font-display text-3xl sm:text-4xl text-emerald-400 leading-none"><span class="counter" data-target="100">0</span>%</div>
+              <div class="font-cond text-[11px] tracking-widest text-slate-400 uppercase mt-1">Genuine OEM</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Real Shop Showcase Card -->
+        <div class="lg:col-span-6 w-full">
+          <div class="glass-card rounded-3xl overflow-hidden border border-jcb/35 shadow-[0_24px_75px_rgba(249,192,0,0.16)]">
+            <div class="h-1.5 w-full hazard-stripe"></div>
+
+            <!-- Real Shop Front Photo Carousel -->
+            <div class="relative aspect-[16/10] bg-obsidian overflow-hidden group">
+              <img id="hero-shop-img" src="assest/image/forntview.jpeg" alt="JCB Solapur Enterprises Real Shop Front — Vasant Vihar, Solapur" class="w-full h-full object-cover transition duration-700 group-hover:scale-105 cursor-pointer" onclick="openLightbox(this.src, this.alt)" onerror="this.src='https://placehold.co/960x600/111827/F9C000?text=JCB+Solapur+Enterprises+Shop'">
+              <div class="absolute inset-0 bg-gradient-to-t from-obsidian via-obsidian/20 to-transparent pointer-events-none"></div>
+
+              <!-- Live Real-Shop Badge (Clean, No Extra Clutter) -->
+              <div class="absolute top-3 left-3 right-3 flex items-center justify-between gap-2">
+                <span class="px-3 py-1 rounded-full bg-black/80 backdrop-blur-md border border-jcb/50 text-[10px] font-mono font-bold text-jcb uppercase tracking-wider">
+                  <i class="fas fa-check-circle text-emerald-400 mr-1"></i> Real Workshop • Vasant Vihar
+                </span>
+                <span class="px-3 py-1 rounded-full bg-black/80 backdrop-blur-md border border-emerald-400/35 text-[10px] font-mono text-emerald-300">
+                  <i class="fas fa-door-open mr-1"></i>2 Open Bays
+                </span>
+              </div>
+
+              <!-- Photo Switcher Pills -->
+              <div class="absolute bottom-3 left-3 right-3 flex flex-wrap items-center justify-between gap-2">
+                <div class="flex flex-wrap gap-1.5">
+                  <button type="button" data-himg="assest/image/forntview.jpeg" class="hero-img-btn px-2.5 py-1 rounded-lg bg-jcb text-obsidian text-[10px] font-mono font-bold uppercase cursor-pointer">01</button>
+                  <button type="button" data-himg="assest/image/shop.jpeg" class="hero-img-btn px-2.5 py-1 rounded-lg bg-black/75 hover:bg-white/20 border border-white/15 text-white text-[10px] font-mono uppercase cursor-pointer">02</button>
+                  <button type="button" data-himg="assest/image/garage.jpeg" class="hero-img-btn px-2.5 py-1 rounded-lg bg-black/75 hover:bg-white/20 border border-white/15 text-white text-[10px] font-mono uppercase cursor-pointer">03</button>
+                  <button type="button" data-himg="assest/image/warehouse.jpeg" class="hero-img-btn px-2.5 py-1 rounded-lg bg-black/75 hover:bg-white/20 border border-white/15 text-white text-[10px] font-mono uppercase cursor-pointer">04</button>
+                </div>
+                <button type="button" onclick="openVideoModal('assest/video/shop.mp4')" class="px-3 py-1 rounded-lg bg-emerald-500 hover:bg-emerald-400 text-slate-950 text-[10px] font-mono font-bold uppercase cursor-pointer inline-flex items-center gap-1">
+                  <i class="fas fa-play"></i> Video
+                </button>
+              </div>
+            </div>
+
+            <!-- Real Shop Board Specialties Strip -->
+            <div class="p-4 sm:p-5 bg-slateDark/90 space-y-3">
+              <div class="flex flex-wrap items-center justify-between gap-2 text-xs">
+                <span class="font-cond font-bold tracking-wider uppercase text-jcb">Vasant Vihar, Solapur</span>
+                <span class="font-mono text-[11px] text-emerald-400"><i class="fas fa-clock mr-1"></i>10:00 AM – 11:30 PM</span>
+              </div>
+              <div class="grid grid-cols-4 sm:grid-cols-8 gap-1.5 text-center">
+                <div class="rounded-lg bg-white/5 border border-white/10 py-1.5 px-1"><i class="fas fa-cogs text-jcb text-xs"></i><div class="text-[9px] font-mono text-slate-300 mt-0.5 truncate">Trans.</div></div>
+                <div class="rounded-lg bg-white/5 border border-white/10 py-1.5 px-1"><i class="fas fa-gas-pump text-jcb text-xs"></i><div class="text-[9px] font-mono text-slate-300 mt-0.5 truncate">Fuel Inj.</div></div>
+                <div class="rounded-lg bg-white/5 border border-white/10 py-1.5 px-1"><i class="fas fa-water text-jcb text-xs"></i><div class="text-[9px] font-mono text-slate-300 mt-0.5 truncate">Hydraulic</div></div>
+                <div class="rounded-lg bg-white/5 border border-white/10 py-1.5 px-1"><i class="fas fa-microchip text-jcb text-xs"></i><div class="text-[9px] font-mono text-slate-300 mt-0.5 truncate">ECU</div></div>
+                <div class="rounded-lg bg-white/5 border border-white/10 py-1.5 px-1"><i class="fas fa-cog text-jcb text-xs"></i><div class="text-[9px] font-mono text-slate-300 mt-0.5 truncate">Engine</div></div>
+                <div class="rounded-lg bg-white/5 border border-white/10 py-1.5 px-1"><i class="fas fa-fire-flame-curved text-jcb text-xs"></i><div class="text-[9px] font-mono text-slate-300 mt-0.5 truncate">Welding</div></div>
+                <div class="rounded-lg bg-white/5 border border-white/10 py-1.5 px-1"><i class="fas fa-box-open text-jcb text-xs"></i><div class="text-[9px] font-mono text-slate-300 mt-0.5 truncate">JCB Parts</div></div>
+                <div class="rounded-lg bg-white/5 border border-white/10 py-1.5 px-1"><i class="fas fa-grip-lines text-jcb text-xs"></i><div class="text-[9px] font-mono text-slate-300 mt-0.5 truncate">Hoses</div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== INTERACTIVE JCB 3DX ANATOMY & SERVICE EXPLORER ==================== -->
+  <section id="explorer" class="py-16 sm:py-24 bg-slateDark border-y border-white/5">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center max-w-2xl mx-auto mb-10 sm:mb-12 reveal">
+        <div class="font-cond text-xs font-bold tracking-[0.3em] text-jcb uppercase mb-2">Interactive Machine Inspector</div>
+        <h2 class="font-display text-4xl sm:text-6xl text-white">TAP ANY <span class="text-jcb">JCB 3DX</span> SYSTEM</h2>
+        <div class="w-16 h-1 rounded-full bg-gradient-to-r from-jcb to-accent mx-auto my-4"></div>
+        <p class="text-slate-400 text-sm">Tap any glowing point on the JCB 3DX below to see the exact genuine parts &amp; specialist repairs available inside our Vasant Vihar shop.</p>
+      </div>
+
+      <div class="reveal grid lg:grid-cols-12 gap-6 items-center">
+        <!-- Left Interactive JCB Blueprint Visual -->
+        <div class="lg:col-span-7 relative glass-card rounded-3xl p-3.5 sm:p-6 border border-jcb/25">
+          <div class="relative w-full aspect-[16/10] rounded-2xl bg-[radial-gradient(circle_at_center,#1b2336_0%,#090d16_85%)] border border-white/10 overflow-hidden flex items-center justify-center">
+            <div class="absolute inset-0 hero-grid-bg opacity-70 pointer-events-none"></div>
+
+            <!-- High-Detail Technical JCB 3DX SVG Illustration -->
+            <svg viewBox="0 0 800 460" class="w-full h-full p-3 sm:p-4 select-none" aria-label="Interactive JCB 3DX Diagram">
+              <ellipse cx="410" cy="404" rx="285" ry="20" fill="rgba(0,0,0,0.65)" />
+              <rect x="200" y="255" width="22" height="90" rx="4" fill="#1e293b" stroke="#475569" stroke-width="2"/>
+              <rect x="192" y="340" width="38" height="12" rx="3" fill="#F9C000"/>
+              <path d="M210 265 L145 145 L110 80" stroke="#111827" stroke-width="32" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+              <path d="M210 265 L145 145 L110 80" stroke="#F9C000" stroke-width="22" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+              <path d="M110 80 L76 225" stroke="#1f2937" stroke-width="22" stroke-linecap="round" fill="none"/>
+              <path d="M110 80 L76 225" stroke="#F9C000" stroke-width="8" stroke-linecap="round" fill="none"/>
+              <line x1="185" y1="215" x2="145" y2="118" stroke="#cbd5e1" stroke-width="7" stroke-linecap="round"/>
+              <path d="M76 220 Q28 242 36 292 L95 284 Z" fill="#181e29" stroke="#F9C000" stroke-width="3"/>
+              <rect x="215" y="250" width="310" height="54" rx="8" fill="#141923" stroke="#334155" stroke-width="2"/>
+              <path d="M395 162 L530 185 Q555 192 555 220 L552 268 L395 268 Z" fill="#F9C000" stroke="#b45309" stroke-width="3"/>
+              <rect x="405" y="210" width="138" height="28" rx="4" fill="#111827"/>
+              <text x="418" y="230" fill="#F9C000" font-family="Inter, sans-serif" font-weight="900" font-size="18">JCB 3DX</text>
+              <rect x="435" y="88" width="13" height="82" rx="3" fill="#1e293b"/>
+              <path d="M435 88 L420 76 L448 88 Z" fill="#1e293b"/>
+              <path d="M250 258 L266 105 L388 105 L410 258 Z" fill="#151b26" stroke="#334155" stroke-width="3"/>
+              <rect x="255" y="92" width="144" height="18" rx="6" fill="#F9C000"/>
+              <path d="M274 205 L284 118 L378 118 L392 205 Z" fill="rgba(125,211,252,0.28)" stroke="#38bdf8" stroke-width="1.5"/>
+              <rect x="264" y="210" width="128" height="46" rx="4" fill="#F9C000" stroke="#111827" stroke-width="3"/>
+              <rect x="318" y="68" width="22" height="24" rx="6" fill="#f59e0b"/>
+              <path d="M404 195 L515 168 L628 292" stroke="#111827" stroke-width="30" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+              <path d="M404 195 L515 168 L628 292" stroke="#F9C000" stroke-width="20" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+              <line x1="430" y1="242" x2="538" y2="205" stroke="#e2e8f0" stroke-width="8" stroke-linecap="round"/>
+              <path d="M620 252 L735 330 L625 336 Q600 296 620 252 Z" fill="#181e29" stroke="#F9C000" stroke-width="3"/>
+              <circle cx="292" cy="322" r="76" fill="#111318" stroke="#262b34" stroke-width="10"/>
+              <circle cx="292" cy="322" r="42" fill="#F9C000" stroke="#a16207" stroke-width="4"/>
+              <circle cx="292" cy="322" r="16" fill="#1e293b"/>
+              <circle cx="516" cy="342" r="56" fill="#111318" stroke="#262b34" stroke-width="9"/>
+              <circle cx="516" cy="342" r="30" fill="#F9C000" stroke="#a16207" stroke-width="4"/>
+              <circle cx="516" cy="342" r="12" fill="#1e293b"/>
+            </svg>
+
+            <!-- Interactive Clickable Hotspots -->
+            <button type="button" data-spot="backhoe" style="left: 16%; top: 34%;" class="hotspot-btn w-8 h-8 rounded-full bg-obsidian/90 border-2 border-jcb text-jcb text-xs font-bold flex items-center justify-center cursor-pointer transition" title="Backhoe & Hydraulics">1</button>
+            <button type="button" data-spot="cabin" style="left: 41%; top: 35%;" class="hotspot-btn w-8 h-8 rounded-full bg-obsidian/90 border-2 border-jcb text-jcb text-xs font-bold flex items-center justify-center cursor-pointer transition" title="Cabin & ECU Electricals">2</button>
+            <button type="button" data-spot="engine" style="left: 59%; top: 47%;" class="hotspot-btn active w-8 h-8 rounded-full bg-obsidian/90 border-2 border-jcb text-jcb text-xs font-bold flex items-center justify-center cursor-pointer transition" title="EcoMAX Engine & Fuel Injection">3</button>
+            <button type="button" data-spot="gearbox" style="left: 38%; top: 69%;" class="hotspot-btn w-8 h-8 rounded-full bg-obsidian/90 border-2 border-jcb text-jcb text-xs font-bold flex items-center justify-center cursor-pointer transition" title="Transmission, Axle & Brakes">4</button>
+            <button type="button" data-spot="loader" style="left: 78%; top: 64%;" class="hotspot-btn w-8 h-8 rounded-full bg-obsidian/90 border-2 border-jcb text-jcb text-xs font-bold flex items-center justify-center cursor-pointer transition" title="Front Loader & Bucket Teeth">5</button>
+          </div>
+          <div class="mt-3 flex flex-wrap items-center justify-center gap-2 text-[11px] font-mono text-slate-400">
+            <span><strong class="text-jcb">1</strong> Backhoe</span> •
+            <span><strong class="text-jcb">2</strong> Cabin &amp; ECU</span> •
+            <span><strong class="text-jcb">3</strong> Engine</span> •
+            <span><strong class="text-jcb">4</strong> Gearbox</span> •
+            <span><strong class="text-jcb">5</strong> Front Loader</span>
+          </div>
+        </div>
+
+        <!-- Right System Details Card -->
+        <div class="lg:col-span-5 glass-card spotlight-card rounded-3xl p-5 sm:p-8 border border-jcb/30 space-y-5">
+          <div class="flex items-center justify-between gap-2">
+            <span id="spot-badge" class="px-3 py-1 rounded-full bg-jcb/15 border border-jcb/40 text-jcb text-[11px] font-mono font-bold uppercase">SYSTEM 03 • ENGINE</span>
+            <span class="text-[11px] font-mono text-emerald-400"><i class="fas fa-check-circle mr-1"></i>In-Store Stock</span>
+          </div>
+          <h3 id="spot-title" class="font-display text-3xl sm:text-4xl text-white tracking-wide">EcoMAX Diesel Engine &amp; Fuel Injection</h3>
+          <p id="spot-desc" class="text-sm text-slate-300 leading-relaxed">
+            Complete engine overhaul &amp; genuine OEM internals stocked right at our Vasant Vihar shop — pistons, liners, crankshafts, fuel injectors, water pumps, and turbo assemblies.
+          </p>
+          <div class="p-4 rounded-2xl bg-obsidian/75 border border-white/10">
+            <div class="text-[11px] font-mono uppercase tracking-widest text-jcb font-bold mb-2">Available At Our Vasant Vihar Shop</div>
+            <ul id="spot-list" class="space-y-1.5 text-xs sm:text-sm text-slate-200">
+              <li class="flex items-center gap-2"><i class="fas fa-check text-jcb text-xs"></i> Piston, Rings, Cylinder Liners &amp; Gasket Sets</li>
+              <li class="flex items-center gap-2"><i class="fas fa-check text-jcb text-xs"></i> Precision Fuel Injection Pump &amp; Nozzle Calibration</li>
+              <li class="flex items-center gap-2"><i class="fas fa-check text-jcb text-xs"></i> OEM Air, Oil &amp; Fuel Filter Maintenance Kits</li>
+            </ul>
+          </div>
+          <div class="flex flex-wrap gap-2.5 pt-2">
+            <a href="#contact" class="btn-jcb px-6 py-3 text-sm inline-flex items-center gap-2">
+              <i class="fas fa-map-marker-alt"></i> Visit Workshop
+            </a>
+            <a id="spot-wa" href="https://wa.me/917028752721?text=Hello%20JCB%20Solapur%20Enterprises%2C%20I%20want%20to%20visit%20for%20JCB%20Engine%20parts%20%2F%20repair." target="_blank" rel="noopener" class="px-5 py-3 rounded-xl bg-emerald-500/15 hover:bg-emerald-500 hover:text-slate-950 border border-emerald-400/40 text-emerald-300 font-cond font-bold text-sm tracking-widest uppercase transition inline-flex items-center gap-2">
+              <i class="fab fa-whatsapp"></i> Ask Mechanic
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== ABOUT & FOUNDER ==================== -->
+  <section id="about" class="py-16 sm:py-24 bg-obsidian">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid lg:grid-cols-12 gap-8 lg:gap-10 items-start">
+        <!-- Founder Card -->
+        <div class="lg:col-span-4 reveal">
+          <div class="glass-card rounded-3xl overflow-hidden border border-jcb/25">
+            <div class="p-6 sm:p-8 text-center bg-gradient-to-b from-jcb/10 to-transparent">
+              <div class="relative w-32 h-32 sm:w-36 sm:h-36 mx-auto rounded-full p-1 bg-gradient-to-br from-jcb to-accent shadow-[0_12px_35px_rgba(249,192,0,0.35)] cursor-pointer group" onclick="openLightbox('assest/image/owner.png', 'Founder — JCB Solapur Enterprises')">
+                <div class="w-full h-full rounded-full overflow-hidden bg-slateDark flex items-center justify-center">
+                  <img src="assest/image/owner.png" alt="Shop Owner — JCB Solapur Enterprises" class="w-full h-full object-cover group-hover:scale-105 transition" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'">
+                  <div class="hidden w-full h-full items-center justify-center bg-slate-900"><i class="fas fa-user-tie text-5xl text-jcb"></i></div>
+                </div>
+                <span class="absolute bottom-1 right-1 w-9 h-9 rounded-full bg-jcb text-obsidian flex items-center justify-center border-4 border-slateDark shadow-lg"><i class="fas fa-star text-xs"></i></span>
+              </div>
+              <h3 class="font-display text-3xl tracking-wider text-white mt-5">SHOP OWNER</h3>
+              <p class="font-cond text-xs font-bold tracking-[0.22em] text-jcb uppercase mt-1">Founder — JCB Solapur Enterprises</p>
+            </div>
+            <p class="px-6 pb-6 text-sm text-slate-300 leading-relaxed text-center italic">
+              "With 15+ years of hands-on experience in JCB repairing and genuine spare parts, our Vasant Vihar workshop stands on one promise: honest advice, genuine OEM quality, and getting your machine back to work fast."
+            </p>
+            <div class="grid grid-cols-2 border-t border-white/10 text-center">
+              <div class="p-3.5 border-r border-white/10">
+                <div class="font-display text-2xl text-jcb">15+ YRS</div>
+                <div class="font-cond text-[10px] tracking-widest text-slate-400 uppercase">Experience</div>
+              </div>
+              <div class="p-3.5">
+                <div class="font-display text-2xl text-emerald-400">7 DAYS</div>
+                <div class="font-cond text-[10px] tracking-widest text-slate-400 uppercase">10AM – 11:30PM</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Story & Why Visit Us -->
+        <div class="lg:col-span-8 reveal space-y-5">
+          <div class="inline-flex items-center gap-3 font-cond text-xs font-bold tracking-[0.3em] text-jcb uppercase">
+            <span class="w-8 h-0.5 bg-jcb"></span> Why Visit Our Shop
+          </div>
+          <h2 class="font-display text-4xl sm:text-6xl leading-[0.94] text-white">
+            SOLAPUR'S MOST TRUSTED <span class="text-jcb">JCB HUB</span><br>AT VASANT VIHAR
+          </h2>
+          <div class="w-16 h-1 rounded-full bg-gradient-to-r from-jcb to-accent"></div>
+
+          <p class="text-slate-300 leading-relaxed text-sm sm:text-base">
+            <strong class="text-white">JCB Solapur Enterprises (सोलापूर इंटरप्रायझेस)</strong> is a full-scale, drive-in JCB repairing garage and genuine spare parts center located at <strong class="text-amber-300">Vasant Vihar, Solapur 413001</strong>. Gate 1 opens for heavy machinery drive-in repairing while Gate 2 opens directly to our 2,000+ genuine OEM spare parts counter.
+          </p>
+
+          <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 pt-2">
+            <div class="glass-card rounded-xl p-3.5 flex items-center gap-2.5"><i class="fas fa-certificate text-jcb"></i><span class="font-cond font-bold text-sm">Genuine OEM Parts</span></div>
+            <div class="glass-card rounded-xl p-3.5 flex items-center gap-2.5"><i class="fas fa-tools text-jcb"></i><span class="font-cond font-bold text-sm">Drive-In Repair Bay</span></div>
+            <div class="glass-card rounded-xl p-3.5 flex items-center gap-2.5"><i class="fas fa-gauge-high text-jcb"></i><span class="font-cond font-bold text-sm">Pressure Tested</span></div>
+            <div class="glass-card rounded-xl p-3.5 flex items-center gap-2.5"><i class="fas fa-fire-flame-curved text-jcb"></i><span class="font-cond font-bold text-sm">Heavy Welding</span></div>
+            <div class="glass-card rounded-xl p-3.5 flex items-center gap-2.5"><i class="fas fa-gas-pump text-jcb"></i><span class="font-cond font-bold text-sm">Fuel Injection</span></div>
+            <div class="glass-card rounded-xl p-3.5 flex items-center gap-2.5"><i class="fas fa-clock text-jcb"></i><span class="font-cond font-bold text-sm">10 AM – 11:30 PM</span></div>
+            <div class="glass-card rounded-xl p-3.5 flex items-center gap-2.5"><i class="fas fa-cubes text-jcb"></i><span class="font-cond font-bold text-sm">3D Part Preview</span></div>
+            <div class="glass-card rounded-xl p-3.5 flex items-center gap-2.5"><i class="fas fa-handshake text-jcb"></i><span class="font-cond font-bold text-sm">Honest Local Pricing</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== ALL-WEATHER SHOP READINESS & SEASONAL JCB CARE ==================== -->
+  <section id="all-weather" class="py-16 sm:py-20 bg-[radial-gradient(ellipse_at_top,#172033_0%,#06070B_75%)] border-t border-white/5">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="reveal glass-card rounded-3xl overflow-hidden border border-jcb/30 shadow-2xl">
+        <div class="h-1.5 w-full hazard-stripe"></div>
+        <div class="p-5 sm:p-9">
+          <div class="flex flex-col md:flex-row md:items-center justify-between gap-4 pb-6 border-b border-white/10">
+            <div>
+              <div class="inline-flex items-center gap-2 text-[11px] font-mono font-bold uppercase tracking-widest text-emerald-400">
+                <span class="w-2 h-2 rounded-full bg-emerald-400 led-pulse"></span> Open 365 Days • Summer, Rainy &amp; Winter
+              </div>
+              <h2 class="font-display text-3xl sm:text-5xl text-white mt-1">ALL-WEATHER <span class="text-jcb">WORKSHOP</span> CARE</h2>
+            </div>
+
+            <!-- Interactive Season Switcher -->
+            <div class="flex flex-wrap gap-2">
+              <button type="button" data-season="summer" class="season-tab px-3.5 sm:px-4 py-2 rounded-xl bg-white/5 border border-white/15 text-slate-200 hover:border-jcb text-xs font-mono font-bold uppercase cursor-pointer transition inline-flex items-center gap-1.5">
+                <i class="fas fa-sun text-amber-400"></i> Summer
+              </button>
+              <button type="button" data-season="rainy" class="season-tab px-3.5 sm:px-4 py-2 rounded-xl bg-white/5 border border-white/15 text-slate-200 hover:border-jcb text-xs font-mono font-bold uppercase cursor-pointer transition inline-flex items-center gap-1.5">
+                <i class="fas fa-cloud-showers-heavy text-sky-400"></i> Rainy
+              </button>
+              <button type="button" data-season="winter" class="season-tab active px-3.5 sm:px-4 py-2 rounded-xl bg-jcb text-obsidian border border-jcb text-xs font-mono font-bold uppercase cursor-pointer transition inline-flex items-center gap-1.5">
+                <i class="fas fa-snowflake"></i> Winter
+              </button>
+            </div>
+          </div>
+
+          <div class="grid md:grid-cols-12 gap-6 items-center pt-6">
+            <div class="md:col-span-7 space-y-3">
+              <div id="season-badge" class="inline-block px-3 py-1 rounded-full bg-cyan-500/15 border border-cyan-400/35 text-cyan-300 text-[11px] font-mono font-bold uppercase">
+                WINTER • SOLAPUR MORNING FOG READY
+              </div>
+              <h3 id="season-title" class="font-cond text-2xl sm:text-3xl font-extrabold text-white uppercase tracking-wide">
+                Cold-Start Battery, Starter &amp; Hydraulic Oil Warm-Up Check
+              </h3>
+              <p id="season-desc" class="text-sm text-slate-300 leading-relaxed">
+                Chilly Solapur winter mornings thicken engine &amp; hydraulic oils and stress older starter motors. Visit our Vasant Vihar bay for a quick alternator, battery load, glow-plug, and oil viscosity check so your JCB starts on the very first crank.
+              </p>
+              <div id="season-tips" class="grid sm:grid-cols-3 gap-2.5 pt-2 text-xs font-mono text-slate-200">
+                <div class="p-3 rounded-xl bg-obsidian/70 border border-white/10"><i class="fas fa-check text-jcb mr-1.5"></i>Starter &amp; Battery Test</div>
+                <div class="p-3 rounded-xl bg-obsidian/70 border border-white/10"><i class="fas fa-check text-jcb mr-1.5"></i>Genuine Engine Oil</div>
+                <div class="p-3 rounded-xl bg-obsidian/70 border border-white/10"><i class="fas fa-check text-jcb mr-1.5"></i>Fog Work-Light Check</div>
+              </div>
+            </div>
+
+            <div class="md:col-span-5 flex flex-col gap-3 p-5 rounded-2xl bg-obsidian/75 border border-white/10">
+              <div class="text-xs font-mono text-slate-400 uppercase tracking-wider">Preview Dual-Gate Shop In Any Weather</div>
+              <p class="text-xs text-slate-300 leading-relaxed">Watch Gate 1 open for JCB 3DX repairing &amp; Gate 2 open for spare parts shopping in Summer, Monsoon, or Winter!</p>
+              <div class="grid grid-cols-3 gap-2 pt-1">
+                <button type="button" onclick="window.SolapurJcbLoader && window.SolapurJcbLoader.replay('summer')" class="py-2.5 px-2 rounded-xl bg-amber-500/15 hover:bg-amber-400 hover:text-obsidian border border-amber-400/40 text-amber-300 text-[11px] font-mono font-bold uppercase cursor-pointer transition">
+                  <i class="fas fa-sun block text-sm mb-1"></i>Summer
+                </button>
+                <button type="button" onclick="window.SolapurJcbLoader && window.SolapurJcbLoader.replay('rainy')" class="py-2.5 px-2 rounded-xl bg-sky-500/15 hover:bg-sky-400 hover:text-obsidian border border-sky-400/40 text-sky-300 text-[11px] font-mono font-bold uppercase cursor-pointer transition">
+                  <i class="fas fa-cloud-rain block text-sm mb-1"></i>Rainy
+                </button>
+                <button type="button" onclick="window.SolapurJcbLoader && window.SolapurJcbLoader.replay('winter')" class="py-2.5 px-2 rounded-xl bg-cyan-500/15 hover:bg-cyan-400 hover:text-obsidian border border-cyan-400/40 text-cyan-300 text-[11px] font-mono font-bold uppercase cursor-pointer transition">
+                  <i class="fas fa-snowflake block text-sm mb-1"></i>Winter
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== WORKSHOP SERVICES ==================== -->
+  <section id="services" class="py-16 sm:py-24 bg-slateDark border-t border-white/5">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center max-w-2xl mx-auto mb-10 sm:mb-12 reveal">
+        <div class="font-cond text-xs font-bold tracking-[0.3em] text-jcb uppercase mb-2">Under One Roof</div>
+        <h2 class="font-display text-4xl sm:text-6xl text-white">WORKSHOP <span class="text-jcb">SERVICES</span></h2>
+        <div class="w-16 h-1 rounded-full bg-gradient-to-r from-jcb to-accent mx-auto my-4"></div>
+        <p class="text-slate-400 text-sm">All specialized JCB mechanical, hydraulic, electrical &amp; welding services performed directly at our Vasant Vihar bays.</p>
+      </div>
+
+      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5 sm:gap-6">
+        <div class="reveal glass-card spotlight-card rounded-2xl p-6 sm:p-7 hover:-translate-y-1.5 hover:border-jcb/50 transition group">
+          <div class="w-12 h-12 rounded-xl bg-jcb/10 border border-jcb/30 text-jcb flex items-center justify-center text-xl mb-4 group-hover:bg-jcb group-hover:text-obsidian transition"><i class="fas fa-cog"></i></div>
+          <h3 class="font-cond text-2xl font-bold text-white mb-2">Engine Overhaul &amp; Fuel Injection</h3>
+          <p class="text-sm text-slate-400 leading-relaxed">Complete diesel engine rebuilds, pistons, liners, crankshafts, valves, gaskets &amp; calibrated fuel injection services.</p>
+        </div>
+
+        <div class="reveal glass-card spotlight-card rounded-2xl p-6 sm:p-7 hover:-translate-y-1.5 hover:border-jcb/50 transition group">
+          <div class="w-12 h-12 rounded-xl bg-jcb/10 border border-jcb/30 text-jcb flex items-center justify-center text-xl mb-4 group-hover:bg-jcb group-hover:text-obsidian transition"><i class="fas fa-water"></i></div>
+          <h3 class="font-cond text-2xl font-bold text-white mb-2">Hydraulics, Wipro &amp; Parker Hoses</h3>
+          <p class="text-sm text-slate-400 leading-relaxed">Hydraulic main pumps, Wipro cylinder kits, Parker high-pressure hoses, control valves, seals &amp; load pressure testing.</p>
+        </div>
+
+        <div class="reveal glass-card spotlight-card rounded-2xl p-6 sm:p-7 hover:-translate-y-1.5 hover:border-jcb/50 transition group">
+          <div class="w-12 h-12 rounded-xl bg-jcb/10 border border-jcb/30 text-jcb flex items-center justify-center text-xl mb-4 group-hover:bg-jcb group-hover:text-obsidian transition"><i class="fas fa-cogs"></i></div>
+          <h3 class="font-cond text-2xl font-bold text-white mb-2">Transmission &amp; Gearbox Repair</h3>
+          <p class="text-sm text-slate-400 leading-relaxed">Synchro shuttle gearbox rebuilds, torque converters, differentials, axle shafts &amp; 4WD drivetrain servicing.</p>
+        </div>
+
+        <div class="reveal glass-card spotlight-card rounded-2xl p-6 sm:p-7 hover:-translate-y-1.5 hover:border-jcb/50 transition group">
+          <div class="w-12 h-12 rounded-xl bg-jcb/10 border border-jcb/30 text-jcb flex items-center justify-center text-xl mb-4 group-hover:bg-jcb group-hover:text-obsidian transition"><i class="fas fa-microchip"></i></div>
+          <h3 class="font-cond text-2xl font-bold text-white mb-2">Electronics, Starters &amp; ECU</h3>
+          <p class="text-sm text-slate-400 leading-relaxed">Alternators, heavy-duty starters, wiring harnesses, sensors, solenoids, switches &amp; complete electrical troubleshooting.</p>
+        </div>
+
+        <div class="reveal glass-card spotlight-card rounded-2xl p-6 sm:p-7 hover:-translate-y-1.5 hover:border-jcb/50 transition group">
+          <div class="w-12 h-12 rounded-xl bg-jcb/10 border border-jcb/30 text-jcb flex items-center justify-center text-xl mb-4 group-hover:bg-jcb group-hover:text-obsidian transition"><i class="fas fa-fire-flame-curved"></i></div>
+          <h3 class="font-cond text-2xl font-bold text-white mb-2">Heavy Welding &amp; Line Boring</h3>
+          <p class="text-sm text-slate-400 leading-relaxed">Boom &amp; dipper structural welding, bucket tooth reinforcement, kingpost pin-bush fitment &amp; heavy frame fabrication.</p>
+        </div>
+
+        <div class="reveal glass-card spotlight-card rounded-2xl p-6 sm:p-7 hover:-translate-y-1.5 hover:border-jcb/50 transition group">
+          <div class="w-12 h-12 rounded-xl bg-jcb/10 border border-jcb/30 text-jcb flex items-center justify-center text-xl mb-4 group-hover:bg-jcb group-hover:text-obsidian transition"><i class="fas fa-wrench"></i></div>
+          <h3 class="font-cond text-2xl font-bold text-white mb-2">500-Hr Preventive Maintenance</h3>
+          <p class="text-sm text-slate-400 leading-relaxed">Full genuine filter service, hydraulic pressure tuning, kingpost pin-bush greasing &amp; complete safety check inside our bay.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== 3D INTERACTIVE SPARE PARTS SHOWCASE (NO IMAGES — ALL 3D MODELS!) ==================== -->
+  <section id="parts" class="py-16 sm:py-24 bg-obsidian border-t border-white/5">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center max-w-2xl mx-auto mb-10 reveal">
+        <div class="font-cond text-xs font-bold tracking-[0.3em] text-jcb uppercase mb-2">Interactive 3D Counter Showcase</div>
+        <h2 class="font-display text-4xl sm:text-6xl text-white">3D <span class="text-jcb">SPARE PARTS</span></h2>
+        <div class="w-16 h-1 rounded-full bg-gradient-to-r from-jcb to-accent mx-auto my-4"></div>
+        <p class="text-slate-400 text-sm">Drag or swipe any 3D spare part below to inspect it from every angle — stocked ready on our shelves at Vasant Vihar, Solapur.</p>
+      </div>
+
+      <!-- Search & Category Filter -->
+      <div class="reveal max-w-4xl mx-auto mb-10 space-y-4">
+        <div class="relative">
+          <i class="fas fa-search absolute left-4 top-1/2 -translate-y-1/2 text-jcb"></i>
+          <input id="parts-search" type="text" placeholder="Search 3D parts in our shop (e.g., Hydraulic Pump, Piston, Seal Kit, Gearbox, Injector)..."
+            class="w-full pl-11 pr-4 py-3.5 rounded-2xl bg-slateDark border border-white/15 focus:border-jcb focus:outline-none text-sm text-white placeholder-slate-400">
+        </div>
+        <div id="parts-filters" class="flex flex-wrap items-center justify-center gap-2">
+          <button type="button" data-cat="All" class="filter-pill active px-3.5 py-1.5 rounded-full border border-white/15 text-xs font-cond font-bold tracking-widest uppercase cursor-pointer">All 3D Parts</button>
+          <button type="button" data-cat="Engine" class="filter-pill px-3.5 py-1.5 rounded-full border border-white/15 text-slate-300 hover:border-jcb text-xs font-cond font-bold tracking-widest uppercase cursor-pointer">Engine</button>
+          <button type="button" data-cat="Hydraulic" class="filter-pill px-3.5 py-1.5 rounded-full border border-white/15 text-slate-300 hover:border-jcb text-xs font-cond font-bold tracking-widest uppercase cursor-pointer">Hydraulics</button>
+          <button type="button" data-cat="Transmission" class="filter-pill px-3.5 py-1.5 rounded-full border border-white/15 text-slate-300 hover:border-jcb text-xs font-cond font-bold tracking-widest uppercase cursor-pointer">Transmission</button>
+          <button type="button" data-cat="Electrical" class="filter-pill px-3.5 py-1.5 rounded-full border border-white/15 text-slate-300 hover:border-jcb text-xs font-cond font-bold tracking-widest uppercase cursor-pointer">Electrical</button>
+          <button type="button" data-cat="Maintenance" class="filter-pill px-3.5 py-1.5 rounded-full border border-white/15 text-slate-300 hover:border-jcb text-xs font-cond font-bold tracking-widest uppercase cursor-pointer">Maintenance</button>
+        </div>
+      </div>
+
+      <div id="parts-grid" class="grid grid-cols-1 xs:grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 sm:gap-5"></div>
+    </div>
+  </section>
+
+  <!-- ==================== 1-TAP SHOP VISIT PLANNER ==================== -->
+  <section id="visit-planner" class="py-16 sm:py-24 bg-[radial-gradient(circle_at_center,#1b1404_0%,#06070B_72%)] border-t border-jcb/15">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="reveal glass-card rounded-3xl overflow-hidden border border-jcb/30 shadow-2xl">
+        <div class="h-1.5 w-full hazard-stripe"></div>
+        <div class="p-5 sm:p-10 space-y-6">
+          <div class="text-center space-y-2">
+            <span class="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-jcb/15 border border-jcb/35 text-jcb text-[11px] font-mono font-bold uppercase tracking-widest">
+              <i class="fas fa-store"></i> Plan Your Walk-In Visit • 10:00 AM – 11:30 PM
+            </span>
+            <h2 class="font-display text-3xl sm:text-5xl text-white">INFORM US BEFORE <span class="text-jcb">YOU VISIT</span></h2>
+            <p class="text-sm text-slate-400 max-w-xl mx-auto">Coming to our Vasant Vihar workshop? Let our chief mechanic know your machine model &amp; requirement in 1 tap so we keep Gate 1 repair bay or Gate 2 shelf parts ready!</p>
+          </div>
+
+          <div class="grid md:grid-cols-3 gap-5">
+            <div class="space-y-2">
+              <div class="font-mono text-[11px] uppercase tracking-widest text-jcb font-bold">1. Your JCB Model</div>
+              <div class="flex flex-wrap gap-2" data-group="model">
+                <button type="button" class="dispatch-chip selected px-3 py-2 rounded-xl bg-white/5 border border-white/15 text-xs font-cond font-bold uppercase cursor-pointer" data-val="JCB 3DX">JCB 3DX</button>
+                <button type="button" class="dispatch-chip px-3 py-2 rounded-xl bg-white/5 border border-white/15 text-xs font-cond font-bold uppercase cursor-pointer" data-val="JCB 3CX">JCB 3CX</button>
+                <button type="button" class="dispatch-chip px-3 py-2 rounded-xl bg-white/5 border border-white/15 text-xs font-cond font-bold uppercase cursor-pointer" data-val="JCB 4CX">JCB 4CX</button>
+                <button type="button" class="dispatch-chip px-3 py-2 rounded-xl bg-white/5 border border-white/15 text-xs font-cond font-bold uppercase cursor-pointer" data-val="JS Excavator">JS Series</button>
+              </div>
+            </div>
+            <div class="space-y-2">
+              <div class="font-mono text-[11px] uppercase tracking-widest text-jcb font-bold">2. Purpose of Visit</div>
+              <div class="flex flex-wrap gap-2" data-group="service">
+                <button type="button" class="dispatch-chip selected px-3 py-2 rounded-xl bg-white/5 border border-white/15 text-xs font-cond font-bold uppercase cursor-pointer" data-val="Gate 1: In-Shop JCB Repair">Gate 1: Workshop Repair</button>
+                <button type="button" class="dispatch-chip px-3 py-2 rounded-xl bg-white/5 border border-white/15 text-xs font-cond font-bold uppercase cursor-pointer" data-val="Gate 2: Spare Parts Counter">Gate 2: Parts Counter</button>
+                <button type="button" class="dispatch-chip px-3 py-2 rounded-xl bg-white/5 border border-white/15 text-xs font-cond font-bold uppercase cursor-pointer" data-val="Hydraulic / Welding Work">Hydraulics / Weld</button>
+              </div>
+            </div>
+            <div class="space-y-2">
+              <div class="font-mono text-[11px] uppercase tracking-widest text-jcb font-bold">3. When Visiting</div>
+              <div class="flex flex-wrap gap-2" data-group="visit">
+                <button type="button" class="dispatch-chip selected px-3 py-2 rounded-xl bg-white/5 border border-white/15 text-xs font-cond font-bold uppercase cursor-pointer" data-val="Visiting Today">Today</button>
+                <button type="button" class="dispatch-chip px-3 py-2 rounded-xl bg-white/5 border border-white/15 text-xs font-cond font-bold uppercase cursor-pointer" data-val="Visiting Tomorrow">Tomorrow</button>
+                <button type="button" class="dispatch-chip px-3 py-2 rounded-xl bg-white/5 border border-white/15 text-xs font-cond font-bold uppercase cursor-pointer" data-val="Urgent Visit">Urgent Visit</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="pt-3 flex flex-col sm:flex-row items-center justify-between gap-4 border-t border-white/10">
+            <div id="dispatch-preview" class="text-xs font-mono text-slate-300 text-center sm:text-left">
+              Visit Plan: <span class="text-jcb font-bold">JCB 3DX</span> • <span class="text-white">Gate 1: In-Shop JCB Repair</span> • <span class="text-emerald-300">Visiting Today</span>
+            </div>
+            <button id="btn-send-dispatch" type="button" class="btn-jcb px-7 py-3.5 text-sm sm:text-base inline-flex items-center gap-2 shrink-0 cursor-pointer">
+              <i class="fab fa-whatsapp text-lg"></i> Inform Shop on WhatsApp
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== REAL PHOTO GALLERY (ALL 30 REAL SHOP PHOTOS) ==================== -->
+  <section id="gallery" class="py-16 sm:py-24 bg-obsidian border-t border-white/5">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center max-w-2xl mx-auto mb-8 reveal">
+        <div class="font-cond text-xs font-bold tracking-[0.3em] text-jcb uppercase mb-2">100% Real Workshop &amp; Shelves</div>
+        <h2 class="font-display text-4xl sm:text-6xl text-white">SHOP <span class="text-jcb">PHOTOS</span></h2>
+        <div class="w-16 h-1 rounded-full bg-gradient-to-r from-jcb to-accent mx-auto my-4"></div>
+        <p class="text-slate-400 text-sm">See our real Vasant Vihar storefront, parts warehouse, tools, and repair crew before you visit.</p>
+      </div>
+
+      <div id="photo-filters" class="reveal flex flex-wrap items-center justify-center gap-2 mb-8">
+        <button type="button" data-pcat="All" class="photo-pill filter-pill active px-3.5 py-1.5 rounded-full border border-white/15 text-xs font-cond font-bold tracking-widest uppercase cursor-pointer">All (30)</button>
+        <button type="button" data-pcat="Shop" class="photo-pill filter-pill px-3.5 py-1.5 rounded-full border border-white/15 text-slate-300 hover:border-jcb text-xs font-cond font-bold tracking-widest uppercase cursor-pointer">Shop</button>
+        <button type="button" data-pcat="Tools" class="photo-pill filter-pill px-3.5 py-1.5 rounded-full border border-white/15 text-slate-300 hover:border-jcb text-xs font-cond font-bold tracking-widest uppercase cursor-pointer">Tools</button>
+        <button type="button" data-pcat="Team" class="photo-pill filter-pill px-3.5 py-1.5 rounded-full border border-white/15 text-slate-300 hover:border-jcb text-xs font-cond font-bold tracking-widest uppercase cursor-pointer">Team</button>
+      </div>
+
+      <div id="photo-grid" class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-3 sm:gap-4"></div>
+    </div>
+  </section>
+
+  <!-- ==================== REAL VIDEO GALLERY (ALL 10 REAL WORK VIDEOS) ==================== -->
+  <section id="videos" class="py-16 sm:py-24 bg-slateDark border-t border-white/5">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center max-w-2xl mx-auto mb-10 sm:mb-12 reveal">
+        <div class="font-cond text-xs font-bold tracking-[0.3em] text-jcb uppercase mb-2">Live Inside Our Garage</div>
+        <h2 class="font-display text-4xl sm:text-6xl text-white">WATCH OUR <span class="text-jcb">WORK</span></h2>
+        <div class="w-16 h-1 rounded-full bg-gradient-to-r from-jcb to-accent mx-auto my-4"></div>
+      </div>
+      <div id="video-grid" class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5 sm:gap-6"></div>
+    </div>
+  </section>
+
+  <!-- ==================== CUSTOMER REVIEWS ==================== -->
+  <section id="reviews" class="py-16 sm:py-24 bg-obsidian border-t border-white/5">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center max-w-2xl mx-auto mb-10 sm:mb-12 reveal">
+        <div class="font-cond text-xs font-bold tracking-[0.3em] text-jcb uppercase mb-2">Solapur Contractors Trust Us</div>
+        <h2 class="font-display text-4xl sm:text-6xl text-white">CUSTOMER <span class="text-jcb">REVIEWS</span></h2>
+        <div class="w-16 h-1 rounded-full bg-gradient-to-r from-jcb to-accent mx-auto my-4"></div>
+      </div>
+
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-5 sm:gap-6">
+        <div class="reveal glass-card rounded-2xl p-6 flex flex-col justify-between">
+          <div><div class="text-jcb text-sm mb-2">★★★★★</div><p class="text-sm text-slate-300 italic leading-relaxed">"JCB Solapur Enterprises saved my project! Got the hydraulic pump the same day I visited. Their shelf stock is massive and pricing is very fair."</p></div>
+          <div class="flex items-center gap-3 mt-5 pt-4 border-t border-white/10"><div class="w-10 h-10 rounded-full bg-gradient-to-br from-jcb to-accent text-obsidian font-display text-lg flex items-center justify-center">RS</div><div><div class="font-cond font-bold text-white text-base">Rajesh Shinde</div><div class="text-xs text-slate-400">Contractor, Solapur</div></div></div>
+        </div>
+        <div class="reveal glass-card rounded-2xl p-6 flex flex-col justify-between">
+          <div><div class="text-jcb text-sm mb-2">★★★★★</div><p class="text-sm text-slate-300 italic leading-relaxed">"Best JCB parts shop in Solapur! Open till 11:30 PM which is a huge relief when our site machine needs urgent parts at night. Always genuine OEM quality!"</p></div>
+          <div class="flex items-center gap-3 mt-5 pt-4 border-t border-white/10"><div class="w-10 h-10 rounded-full bg-gradient-to-br from-jcb to-accent text-obsidian font-display text-lg flex items-center justify-center">AM</div><div><div class="font-cond font-bold text-white text-base">Anil Mane</div><div class="text-xs text-slate-400">Machine Owner, Osmanabad</div></div></div>
+        </div>
+        <div class="reveal glass-card rounded-2xl p-6 flex flex-col justify-between">
+          <div><div class="text-jcb text-sm mb-2">★★★★★</div><p class="text-sm text-slate-300 italic leading-relaxed">"Very professional workshop. They diagnosed my JCB 3CX gearbox issue right at the bay and had the exact parts ready on the shelf. Super fast service!"</p></div>
+          <div class="flex items-center gap-3 mt-5 pt-4 border-t border-white/10"><div class="w-10 h-10 rounded-full bg-gradient-to-br from-jcb to-accent text-obsidian font-display text-lg flex items-center justify-center">SP</div><div><div class="font-cond font-bold text-white text-base">Santosh Patil</div><div class="text-xs text-slate-400">Fleet Manager, Latur</div></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== VISIT OUR SHOP & GOOGLE STREET VIEW ==================== -->
+  <section id="contact" class="py-16 sm:py-24 bg-slateDark border-t border-white/5">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center max-w-2xl mx-auto mb-10 sm:mb-12 reveal">
+        <div class="font-cond text-xs font-bold tracking-[0.3em] text-jcb uppercase mb-2">Drive Straight In</div>
+        <h2 class="font-display text-4xl sm:text-6xl text-white">VISIT <span class="text-jcb">OUR SHOP</span></h2>
+        <div class="w-16 h-1 rounded-full bg-gradient-to-r from-jcb to-accent mx-auto my-4"></div>
+        <p class="text-slate-400 text-sm">Vasant Vihar, Solapur, Maharashtra 413001 • Open All 7 Days (10:00 AM – 11:30 PM)</p>
+      </div>
+
+      <div class="reveal glass-card rounded-3xl p-5 sm:p-10 border border-jcb/25">
+        <div class="grid md:grid-cols-2 gap-8 mb-8">
+          <div class="space-y-5">
+            <div class="flex items-start gap-4">
+              <div class="w-12 h-12 rounded-xl bg-jcb/10 border border-jcb/30 text-jcb flex items-center justify-center text-lg shrink-0"><i class="fas fa-map-marker-alt"></i></div>
+              <div>
+                <div class="font-cond text-xs font-bold tracking-widest text-slate-400 uppercase">Workshop Address</div>
+                <div class="font-cond text-xl font-bold text-white mt-0.5">Vasant Vihar, Solapur, Maharashtra 413001</div>
+                <button type="button" data-copy="JCB Solapur Enterprises, Vasant Vihar, Solapur, Maharashtra 413001" class="copy-btn mt-1.5 text-[11px] font-mono text-jcb hover:underline cursor-pointer inline-flex items-center gap-1"><i class="fas fa-copy"></i> Copy Address</button>
+              </div>
+            </div>
+
+            <div class="flex items-start gap-4">
+              <div class="w-12 h-12 rounded-xl bg-jcb/10 border border-jcb/30 text-jcb flex items-center justify-center text-lg shrink-0"><i class="fas fa-phone-alt"></i></div>
+              <div>
+                <div class="font-cond text-xs font-bold tracking-widest text-slate-400 uppercase">Call &amp; WhatsApp Counter</div>
+                <div class="font-cond text-xl font-bold text-white mt-0.5"><a href="tel:+917028752721" class="hover:text-jcb transition">+91 70287 52721</a></div>
+                <button type="button" data-copy="+917028752721" class="copy-btn mt-1.5 text-[11px] font-mono text-emerald-400 hover:underline cursor-pointer inline-flex items-center gap-1"><i class="fas fa-copy"></i> Copy Number</button>
+              </div>
+            </div>
+
+            <div class="flex items-start gap-4">
+              <div class="w-12 h-12 rounded-xl bg-jcb/10 border border-jcb/30 text-jcb flex items-center justify-center text-lg shrink-0"><i class="fas fa-envelope"></i></div>
+              <div>
+                <div class="font-cond text-xs font-bold tracking-widest text-slate-400 uppercase">Email</div>
+                <div class="font-cond text-lg font-bold text-white mt-0.5 break-all"><a href="mailto:solapurenterprises2024@gmail.com" class="hover:text-jcb transition">solapurenterprises2024@gmail.com</a></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="flex items-start gap-4">
+            <div class="w-12 h-12 rounded-xl bg-jcb/10 border border-jcb/30 text-jcb flex items-center justify-center text-lg shrink-0"><i class="fas fa-clock"></i></div>
+            <div class="w-full">
+              <div class="font-cond text-xs font-bold tracking-widest text-slate-400 uppercase mb-2">Shop Timings</div>
+              <div class="space-y-2 font-cond text-base">
+                <div class="flex justify-between py-2 border-b border-white/10"><span class="text-slate-300">Monday – Saturday</span><span class="text-jcb font-bold">10:00 AM – 11:30 PM</span></div>
+                <div class="flex justify-between py-2 border-b border-white/10"><span class="text-slate-300">Sunday</span><span class="text-jcb font-bold">10:00 AM – 11:30 PM</span></div>
+                <div class="flex justify-between py-2"><span class="text-slate-300">Walk-In Bay &amp; Parts</span><span class="text-emerald-400 font-bold">Open All 7 Days</span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Google Maps Real Street View Embed -->
+        <div class="relative rounded-2xl overflow-hidden border-2 border-jcb/35">
+          <div class="absolute top-3 left-3 z-10 px-3.5 py-1.5 rounded-lg bg-jcb text-obsidian font-cond font-extrabold text-xs tracking-widest uppercase shadow-lg">
+            <i class="fas fa-map-pin mr-1"></i> JCB Solapur Enterprises — Real Street View
+          </div>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!4v1780881102849!6m8!1m7!1sp3HTFo0vsZ7H52er-LR7Yw!2m2!1d17.69046344689172!2d75.88606981440701!3f207.97!4f-4.319999999999993!5f1.6292600892264457"
+            class="w-full h-[280px] sm:h-[400px] border-0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            title="JCB Solapur Enterprises Street View">
+          </iframe>
+        </div>
+
+        <!-- Visit & Contact Action Buttons -->
+        <div class="flex flex-wrap justify-center gap-3 mt-8">
+          <a href="https://maps.google.com/?q=17.69046344689172,75.88606981440701" target="_blank" rel="noopener" class="btn-jcb px-6 sm:px-7 py-3.5 text-sm sm:text-base inline-flex items-center gap-2"><i class="fas fa-directions"></i> Open Google Maps</a>
+          <a href="tel:+917028752721" class="px-6 sm:px-7 py-3.5 rounded-xl bg-white/10 hover:bg-jcb hover:text-obsidian border border-jcb/40 text-jcb font-cond font-extrabold text-sm sm:text-base tracking-widest uppercase transition inline-flex items-center gap-2"><i class="fas fa-phone-alt"></i> Call +91 70287 52721</a>
+          <a href="https://wa.me/917028752721" target="_blank" rel="noopener" class="px-6 sm:px-7 py-3.5 rounded-xl bg-emerald-500 hover:bg-emerald-400 text-slate-950 font-cond font-extrabold text-sm sm:text-base tracking-widest uppercase transition inline-flex items-center gap-2"><i class="fab fa-whatsapp text-lg"></i> WhatsApp Us</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="bg-obsidian border-t border-white/10 pt-14 pb-8">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-8 pb-10 border-b border-white/10">
+        <div>
+          <a href="#hero" class="flex items-center gap-2.5 mb-3">
+            <span class="px-2.5 py-1 bg-gradient-to-r from-jcb to-accent text-obsidian font-display text-lg tracking-wider" style="clip-path:polygon(6px 0,100% 0,calc(100% - 6px) 100%,0 100%)">JCB</span>
+            <span class="font-display text-2xl tracking-widest text-jcb">SOLAPUR ENT.</span>
+          </a>
+          <p class="text-xs sm:text-sm text-slate-400 leading-relaxed">
+            Official promotional website for <strong class="text-white">JCB Solapur Enterprises (सोलापूर इंटरप्रायझेस)</strong>, Vasant Vihar, Solapur 413001. Visit our physical workshop for genuine JCB parts &amp; repairing.
+          </p>
+          <div class="flex gap-2.5 mt-4">
+            <a href="https://wa.me/917028752721" target="_blank" rel="noopener" class="w-10 h-10 rounded-xl bg-white/5 hover:bg-emerald-500 hover:text-slate-950 border border-white/10 flex items-center justify-center text-slate-300 transition" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+            <a href="tel:+917028752721" class="w-10 h-10 rounded-xl bg-white/5 hover:bg-jcb hover:text-obsidian border border-white/10 flex items-center justify-center text-slate-300 transition" aria-label="Call"><i class="fas fa-phone-alt"></i></a>
+            <a href="https://www.instagram.com/solapurenterprises2721/" target="_blank" rel="noopener" class="w-10 h-10 rounded-xl bg-white/5 hover:bg-jcb hover:text-obsidian border border-white/10 flex items-center justify-center text-slate-300 transition" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="https://share.google/Q2vkrp3ZyOOW7SEyT" target="_blank" rel="noopener" class="w-10 h-10 rounded-xl bg-white/5 hover:bg-jcb hover:text-obsidian border border-white/10 flex items-center justify-center text-slate-300 transition" aria-label="Google"><i class="fab fa-google"></i></a>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="font-cond text-xs font-bold tracking-[0.25em] text-jcb uppercase mb-3">Quick Links</h4>
+          <ul class="space-y-2 text-sm text-slate-400">
+            <li><a href="#hero" class="hover:text-jcb transition">Home</a></li>
+            <li><a href="#explorer" class="hover:text-jcb transition">JCB 3DX Explorer</a></li>
+            <li><a href="#services" class="hover:text-jcb transition">Workshop Services</a></li>
+            <li><a href="#parts" class="hover:text-jcb transition">3D Spare Parts</a></li>
+            <li><a href="#gallery" class="hover:text-jcb transition">Shop Photos</a></li>
+            <li><a href="#videos" class="hover:text-jcb transition">Work Videos</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="font-cond text-xs font-bold tracking-[0.25em] text-jcb uppercase mb-3">Specialties</h4>
+          <ul class="space-y-2 text-sm text-slate-400">
+            <li>Transmission &amp; Gearbox Repair</li>
+            <li>Fuel Injection &amp; Engine Overhaul</li>
+            <li>Hydraulics, Wipro &amp; Parker Hoses</li>
+            <li>Electronics &amp; ECU Diagnostics</li>
+            <li>Heavy Welding &amp; Line Boring</li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="font-cond text-xs font-bold tracking-[0.25em] text-jcb uppercase mb-3">Visit Us</h4>
+          <div class="space-y-2 text-sm text-slate-400">
+            <div><i class="fas fa-map-marker-alt text-jcb mr-2"></i>Vasant Vihar, Solapur 413001</div>
+            <div><i class="fas fa-phone-alt text-jcb mr-2"></i><a href="tel:+917028752721" class="hover:text-jcb">+91 70287 52721</a></div>
+            <div><i class="fas fa-clock text-jcb mr-2"></i>Daily: 10:00 AM – 11:30 PM</div>
+          </div>
+          <button onclick="window.SolapurJcbLoader && window.SolapurJcbLoader.replay()" type="button" class="mt-4 px-4 py-2 rounded-xl bg-white/5 hover:bg-jcb hover:text-obsidian border border-jcb/40 text-jcb font-cond text-xs font-bold tracking-widest uppercase transition cursor-pointer">
+            <i class="fas fa-rotate-right mr-1.5"></i> Replay Shop Intro
+          </button>
+        </div>
+      </div>
+
+      <div class="pt-6 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-slate-500">
+        <div>© 2026 <a href="https://hotgicreative.netlify.app" target="_blank" rel="noopener" class="text-amber-200 hover:text-jcb">Hotgi Creative</a> • JCB Solapur Enterprises. Promotional Website.</div>
+        <div>Built for Solapur's Heavy Equipment Professionals ⚙️</div>
+      </div>
+    </div>
+  </footer>
+</div>
+
+<!-- FLOATING ACTION BUTTONS -->
+<div class="fixed bottom-20 sm:bottom-5 right-3.5 sm:right-5 z-40 flex flex-col gap-2.5">
+  <button id="fab-horn" type="button" class="w-12 h-12 rounded-full bg-gradient-to-br from-amber-400 to-orange-500 text-obsidian flex items-center justify-center shadow-xl hover:scale-110 transition cursor-pointer" title="Honk JCB 3DX Horn" aria-label="JCB Horn">
+    <i class="fas fa-bullhorn text-lg"></i>
+  </button>
+  <button id="fab-top" type="button" class="hidden w-12 h-12 rounded-full bg-slateDark/90 backdrop-blur-md border border-jcb/40 text-jcb items-center justify-center shadow-xl hover:bg-jcb hover:text-obsidian transition cursor-pointer" title="Back to Top" aria-label="Back to Top">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+  <a href="https://maps.google.com/?q=17.69046344689172,75.88606981440701" target="_blank" rel="noopener" class="hidden sm:flex w-12 h-12 rounded-full bg-gradient-to-br from-jcb to-accent text-obsidian items-center justify-center shadow-xl hover:scale-110 transition" title="Shop Directions" aria-label="Directions">
+    <i class="fas fa-directions text-lg"></i>
+  </a>
+  <a href="https://wa.me/917028752721" target="_blank" rel="noopener" class="hidden sm:flex w-12 h-12 rounded-full bg-emerald-500 text-white items-center justify-center shadow-xl hover:scale-110 transition" title="WhatsApp" aria-label="WhatsApp">
+    <i class="fab fa-whatsapp text-xl"></i>
+  </a>
+</div>
+
+<!-- MOBILE STICKY BOTTOM ACTION BAR -->
+<div class="sm:hidden fixed bottom-0 left-0 right-0 z-40 bg-obsidian/95 backdrop-blur-2xl border-t border-jcb/25 px-2 py-2 grid grid-cols-4 gap-1.5 shadow-[0_-10px_30px_rgba(0,0,0,0.85)]">
+  <a href="tel:+917028752721" class="flex flex-col items-center justify-center py-1.5 rounded-xl bg-jcb text-obsidian font-cond font-extrabold text-[11px] uppercase">
+    <i class="fas fa-phone-alt text-xs mb-0.5"></i> Call
+  </a>
+  <a href="https://wa.me/917028752721" target="_blank" rel="noopener" class="flex flex-col items-center justify-center py-1.5 rounded-xl bg-emerald-500 text-slate-950 font-cond font-extrabold text-[11px] uppercase">
+    <i class="fab fa-whatsapp text-sm mb-0.5"></i> WhatsApp
+  </a>
+  <a href="#parts" class="flex flex-col items-center justify-center py-1.5 rounded-xl bg-white/10 text-jcb font-cond font-bold text-[11px] uppercase">
+    <i class="fas fa-cubes text-xs mb-0.5"></i> 3D Parts
+  </a>
+  <a href="https://maps.google.com/?q=17.69046344689172,75.88606981440701" target="_blank" rel="noopener" class="flex flex-col items-center justify-center py-1.5 rounded-xl bg-white/10 text-white font-cond font-bold text-[11px] uppercase">
+    <i class="fas fa-directions text-xs text-jcb mb-0.5"></i> Map
+  </a>
+</div>
+
+<!-- PHOTO LIGHTBOX MODAL -->
+<div id="img-lightbox" class="modal-backdrop p-4" role="dialog" aria-label="Image Preview">
+  <button id="lb-close" type="button" class="fixed top-4 right-4 w-11 h-11 rounded-full bg-jcb text-obsidian flex items-center justify-center text-lg shadow-xl hover:bg-white transition cursor-pointer" aria-label="Close"><i class="fas fa-times"></i></button>
+  <div class="max-w-4xl w-full text-center">
+    <img id="lb-img" src="" alt="" class="max-h-[84vh] mx-auto rounded-2xl shadow-2xl border border-white/15">
+  </div>
+</div>
+
+<!-- VIDEO PLAYER MODAL -->
+<div id="vid-modal" class="modal-backdrop p-4" role="dialog" aria-label="Video Player">
+  <div class="relative w-full max-w-4xl aspect-video bg-black rounded-2xl overflow-hidden border border-jcb/40 shadow-2xl">
+    <button id="vm-close" type="button" class="absolute top-3 right-3 z-10 w-10 h-10 rounded-full bg-jcb text-obsidian flex items-center justify-center shadow-lg hover:bg-white transition cursor-pointer" aria-label="Close Video"><i class="fas fa-times"></i></button>
+    <video id="vm-player" controls playsinline class="w-full h-full object-contain"></video>
+  </div>
+</div>
+
+<!-- TOAST NOTIFICATION -->
+<div id="toast" class="hud-glass rounded-xl px-4 py-2 text-xs font-mono text-amber-200 border border-amber-400/30"></div>
+
+<script>
+(function () {
+  'use strict';
+
+  /* Toast Helper (Defined early so every section can use it smoothly) */
+  const toastEl = document.getElementById('toast');
+  let toastTimer = null;
+  function showToast(msg) {
+    if (!toastEl) return;
+    toastEl.textContent = msg;
+    toastEl.classList.add('show');
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(() => toastEl.classList.remove('show'), 2400);
+  }
+
+  /* ==========================================================================
+     REALISTIC JCB 3DX SOUND ENGINE (DUAL-TONE AIR HORN + DIESEL ENGINE + HYDRAULIC SHUTTER)
+     Uses Tone.js / Web Audio API synthesis — zero external sound URLs!
+     ========================================================================== */
+  const JCBSound = (function () {
+    let audioCtx = null;
+    let engineOsc1 = null;
+    let engineOsc2 = null;
+    let engineGain = null;
+    let engineRunning = false;
+    let muted = false;
+
+    function ensureContext() {
+      if (muted) return null;
+      if (typeof Tone !== 'undefined' && Tone.context && Tone.context.state !== 'running') {
+        Tone.start().catch(() => {});
+      }
+      if (!audioCtx) {
+        const Ctx = window.AudioContext || window.webkitAudioContext;
+        if (Ctx) audioCtx = new Ctx();
+      }
+      if (audioCtx && audioCtx.state === 'suspended') {
+        audioCtx.resume().catch(() => {});
+      }
+      return audioCtx;
+    }
+
+    // Authentic Dual-Tone Heavy JCB 3DX Air Horn ("PEEP-PEEP!")
+    function playHorn(doubleBlast = true) {
+      const ctx = ensureContext();
+      if (!ctx) return;
+      const now = ctx.currentTime;
+
+      const triggerBlast = (start, dur) => {
+        const oscA = ctx.createOscillator();
+        const oscB = ctx.createOscillator();
+        const filter = ctx.createBiquadFilter();
+        const gain = ctx.createGain();
+
+        // Heavy-duty dual-trumpet frequencies (F4 + A4 industrial air horn chord)
+        oscA.type = 'sawtooth';
+        oscB.type = 'square';
+        oscA.frequency.setValueAtTime(349.23, start);
+        oscB.frequency.setValueAtTime(440.00, start);
+        oscA.frequency.exponentialRampToValueAtTime(342, start + dur);
+        oscB.frequency.exponentialRampToValueAtTime(432, start + dur);
+
+        filter.type = 'bandpass';
+        filter.frequency.setValueAtTime(920, start);
+        filter.Q.setValueAtTime(1.6, start);
+
+        gain.gain.setValueAtTime(0.001, start);
+        gain.gain.linearRampToValueAtTime(0.18, start + 0.025);
+        gain.gain.setValueAtTime(0.16, start + dur - 0.04);
+        gain.gain.exponentialRampToValueAtTime(0.001, start + dur);
+
+        oscA.connect(filter);
+        oscB.connect(filter);
+        filter.connect(gain);
+        gain.connect(ctx.destination);
+
+        oscA.start(start);
+        oscB.start(start);
+        oscA.stop(start + dur + 0.02);
+        oscB.stop(start + dur + 0.02);
+      };
+
+      triggerBlast(now, 0.22);
+      if (doubleBlast) triggerBlast(now + 0.28, 0.36);
+    }
+
+    // Diesel 4-Cylinder Engine Idle & Drive Chug
+    function startEngine() {
+      const ctx = ensureContext();
+      if (!ctx || engineRunning) return;
+      engineRunning = true;
+      const now = ctx.currentTime;
+
+      engineOsc1 = ctx.createOscillator();
+      engineOsc2 = ctx.createOscillator();
+      const filter = ctx.createBiquadFilter();
+      engineGain = ctx.createGain();
+
+      engineOsc1.type = 'sawtooth';
+      engineOsc2.type = 'triangle';
+      engineOsc1.frequency.setValueAtTime(46, now);
+      engineOsc2.frequency.setValueAtTime(23, now);
+
+      filter.type = 'lowpass';
+      filter.frequency.setValueAtTime(165, now);
+
+      engineGain.gain.setValueAtTime(0.001, now);
+      engineGain.gain.linearRampToValueAtTime(0.075, now + 0.35);
+
+      engineOsc1.connect(filter);
+      engineOsc2.connect(filter);
+      filter.connect(engineGain);
+      engineGain.connect(ctx.destination);
+
+      engineOsc1.start(now);
+      engineOsc2.start(now);
+    }
+
+    function setEngineRPM(ratio) {
+      if (!audioCtx || !engineRunning || !engineOsc1 || !engineGain) return;
+      const now = audioCtx.currentTime;
+      const freq = 36 + ratio * 26;
+      engineOsc1.frequency.setTargetAtTime(freq, now, 0.12);
+      engineOsc2.frequency.setTargetAtTime(freq * 0.5, now, 0.12);
+      engineGain.gain.setTargetAtTime(muted ? 0.0001 : (0.04 + ratio * 0.045), now, 0.12);
+    }
+
+    function stopEngine() {
+      if (!engineRunning) return;
+      engineRunning = false;
+      try {
+        if (audioCtx && engineGain) {
+          const now = audioCtx.currentTime;
+          engineGain.gain.setTargetAtTime(0.0001, now, 0.18);
+        }
+        setTimeout(() => {
+          try { engineOsc1 && engineOsc1.stop(); } catch (e) {}
+          try { engineOsc2 && engineOsc2.stop(); } catch (e) {}
+          engineOsc1 = null; engineOsc2 = null; engineGain = null;
+        }, 420);
+      } catch (e) {}
+    }
+
+    // Metallic Rolling Shutter Sound when Gate 1 & Gate 2 Open
+    function playShutterSound() {
+      const ctx = ensureContext();
+      if (!ctx) return;
+      const now = ctx.currentTime;
+      const osc = ctx.createOscillator();
+      const filter = ctx.createBiquadFilter();
+      const gain = ctx.createGain();
+
+      osc.type = 'sawtooth';
+      osc.frequency.setValueAtTime(110, now);
+      osc.frequency.linearRampToValueAtTime(165, now + 0.65);
+
+      filter.type = 'bandpass';
+      filter.frequency.setValueAtTime(420, now);
+      filter.Q.setValueAtTime(3.2, now);
+
+      gain.gain.setValueAtTime(0.001, now);
+      gain.gain.linearRampToValueAtTime(0.055, now + 0.08);
+      gain.gain.exponentialRampToValueAtTime(0.001, now + 0.72);
+
+      osc.connect(filter);
+      filter.connect(gain);
+      gain.connect(ctx.destination);
+      osc.start(now);
+      osc.stop(now + 0.75);
+    }
+
+    function toggleMute() {
+      muted = !muted;
+      if (muted) stopEngine();
+      return muted;
+    }
+
+    return {
+      playHorn,
+      startEngine,
+      setEngineRPM,
+      stopEngine,
+      playShutterSound,
+      toggleMute,
+      isMuted: () => muted
+    };
+  })();
+
+  // Unlock JCB engine & horn audio seamlessly on first user gesture anywhere
+  const unlockAudioOnce = () => {
+    if (!JCBSound.isMuted() && lState.phase !== 'done') {
+      JCBSound.startEngine();
+    }
+    window.removeEventListener('pointerdown', unlockAudioOnce);
+    window.removeEventListener('keydown', unlockAudioOnce);
+  };
+  window.addEventListener('pointerdown', unlockAudioOnce, { once: true });
+  window.addEventListener('keydown', unlockAudioOnce, { once: true });
+
+  /* ==========================================================================
+     PART A: DUAL-GATE REAL-SHOP LOADER (EXACT REFERENCE SHOP + SMOOTH PACING)
+     - Gate 1 (Left Bay): Opens for JCB 3DX Repairing!
+     - Gate 2 (Right Bay): Opens for Parts Counter with Spare Parts Shelves & Customer Buying Parts!
+     - Plays automatically on every load/reload!
+     ========================================================================== */
+  const LOADER_CFG = {
+    durationMs: 5600, // Balanced cinematic pacing (not too fast, super smooth 60fps)
+    reducedMotion: window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches
+  };
+
+  function detectSolapurWeather() {
+    const m = new Date().getMonth();
+    if (m >= 2 && m <= 4) return 'summer';
+    if (m >= 5 && m <= 8) return 'rainy';
+    return 'winter';
+  }
+
+  const THEMES = {
+    summer: {
+      badge: 'SUMMER • 39°C',
+      skyTop: '#1d4ed8', skyMid: '#60a5fa', skyHorizon: '#fde68a',
+      sunColor: '#fffbeb', sunGlow: 'rgba(254, 240, 138, 0.58)', sunY: 0.24,
+      cloudColor: 'rgba(255, 255, 255, 0.72)',
+      hillFar: '#786c52', hillMid: '#5c523b',
+      groundTop: '#856d4d', groundBot: '#5c4b34',
+      roadTop: '#3b4252', roadBot: '#242933',
+      rain: false, fog: 0, dust: true, wetRoad: false,
+      headlights: 0.14, bayGlow: 0.52, ambient: 'rgba(255, 224, 140, 0.06)'
+    },
+    rainy: {
+      badge: 'RAINY • 24°C',
+      skyTop: '#0f172a', skyMid: '#1e293b', skyHorizon: '#475569',
+      sunColor: '#94a3b8', sunGlow: 'rgba(148, 163, 184, 0.12)', sunY: 0.3,
+      cloudColor: 'rgba(42, 54, 72, 0.92)',
+      hillFar: '#162230', hillMid: '#0f1824',
+      groundTop: '#242b33', groundBot: '#161b21',
+      roadTop: '#1c2533', roadBot: '#0f1520',
+      rain: true, fog: 0.12, dust: false, wetRoad: true,
+      headlights: 0.95, bayGlow: 0.92, ambient: 'rgba(30, 64, 115, 0.14)'
+    },
+    winter: {
+      badge: 'WINTER • 19°C',
+      skyTop: '#1e3a5f', skyMid: '#64748b', skyHorizon: '#cbd5e1',
+      sunColor: '#fef3c7', sunGlow: 'rgba(254, 243, 199, 0.42)', sunY: 0.44,
+      cloudColor: 'rgba(226, 232, 240, 0.65)',
+      hillFar: '#475569', hillMid: '#334155',
+      groundTop: '#475569', groundBot: '#334155',
+      roadTop: '#293548', roadBot: '#1a2230',
+      rain: false, fog: 0.55, dust: false, wetRoad: false,
+      headlights: 0.78, bayGlow: 0.88, ambient: 'rgba(186, 230, 253, 0.09)'
+    }
+  };
+
+  const loaderRoot = document.getElementById('jcb-loader-root');
+  const siteWrapper = document.getElementById('site-wrapper');
+  const lCanvas = document.getElementById('loader-canvas');
+  const lCtx = lCanvas.getContext('2d');
+  const hudPhase = document.getElementById('hud-phase');
+  const hudMsg = document.getElementById('hud-msg');
+  const hudPct = document.getElementById('hud-pct');
+  const hudBar = document.getElementById('hud-bar');
+  const hudSpeed = document.getElementById('hud-speed');
+  const hudWeatherBadge = document.getElementById('hud-weather-badge');
+  const statusLed = document.getElementById('status-led');
+
+  let LW = window.innerWidth;
+  let LH = window.innerHeight;
+  let dpr = Math.min(window.devicePixelRatio || 1, 2);
+
+  function resizeLoader() {
+    LW = document.documentElement.clientWidth || window.innerWidth;
+    LH = window.innerHeight;
+    dpr = Math.min(window.devicePixelRatio || 1, 2);
+    lCanvas.width = Math.floor(LW * dpr);
+    lCanvas.height = Math.floor(LH * dpr);
+  }
+  window.addEventListener('resize', resizeLoader);
+  resizeLoader();
+
+  const clouds = Array.from({ length: 7 }, (_, i) => ({ x: i * 0.17, y: 0.08 + (i % 3) * 0.075, w: 135 + (i % 3) * 50, h: 30 + (i % 2) * 16 }));
+  const raindrops = Array.from({ length: 110 }, (_, i) => ({ x: ((i * 29) % 100) / 100, y: ((i * 53) % 100) / 100, len: 14 + (i % 4) * 5, sp: 0.85 + (i % 3) * 0.25 }));
+  const snowMist = Array.from({ length: 34 }, (_, i) => ({ x: ((i * 41) % 100) / 100, y: ((i * 67) % 85) / 100, r: 1.2 + (i % 3) * 0.9, sp: 0.04 + (i % 3) * 0.02 }));
+  const exhaust = [];
+  const wheelFX = [];
+
+  const lState = {
+    themeKey: detectSolapurWeather(),
+    progress: 0,
+    elapsed: 0,
+    phase: 'driving', // driving -> entering -> zooming -> done
+    speedRatio: 1.0,
+    worldScroll: 0,
+    wheelAngle: 0,
+    shopX: 1.38,
+    gate1Open: 0.12, // Gate 1 (Left Bay): Opens for JCB Repairing!
+    gate2Open: 0.12, // Gate 2 (Right Bay): Opens for Spare Parts Counter & Buyer!
+    gate1SoundPlayed: false,
+    gate2SoundPlayed: false,
+    hornPlayed: false,
+    enterProgress: 0,
+    cameraZoom: 1,
+    lightningAlpha: 0,
+    nextLightning: 1.8,
+    timers: []
+  };
+
+  function lSchedule(fn, ms) { lState.timers.push(setTimeout(fn, ms)); }
+  function lClear() { lState.timers.forEach(clearTimeout); lState.timers = []; }
+  function easeOutCubic(x) { return 1 - Math.pow(1 - x, 3); }
+  function easeInOutCubic(x) { return x < 0.5 ? 4 * x * x * x : 1 - Math.pow(-2 * x + 2, 3) / 2; }
+
+  function applyLoaderThemeUI(key) {
+    if (!THEMES[key]) return;
+    lState.themeKey = key;
+    if (hudWeatherBadge) hudWeatherBadge.textContent = THEMES[key].badge;
+    document.querySelectorAll('.theme-btn').forEach((b) => {
+      const active = b.dataset.theme === key;
+      b.className = 'theme-btn px-2 sm:px-2.5 py-1 rounded-lg cursor-pointer transition inline-flex items-center gap-1 ' +
+        (active ? 'bg-amber-400 text-slate-950 font-bold' : 'text-slate-300 hover:text-white');
+    });
+  }
+  applyLoaderThemeUI(lState.themeKey);
+
+  function getRealShopMetrics(roadTopY) {
+    const sc = Math.max(0.46, Math.min(1.06, Math.min(LW / 1000, LH / 610)));
+    const shopW = 660 * sc;
+    const shopH = 304 * sc;
+    const sx = lState.shopX * LW;
+    const baseY = roadTopY + 12;
+    const topY = baseY - shopH;
+    const bannerH = 86 * sc;
+    const fasciaH = 22 * sc;
+    const bayTopY = topY + bannerH + fasciaH;
+    const bayH = baseY - bayTopY;
+    const leftBayW = shopW * 0.43;
+    const pillarW = shopW * 0.14;
+    const rightBayW = shopW * 0.41;
+    const leftBayX = sx + 8 * sc;
+    const pillarX = leftBayX + leftBayW;
+    const rightBayX = pillarX + pillarW;
+    return { sc, shopW, shopH, sx, baseY, topY, bannerH, fasciaH, bayTopY, bayH, leftBayX, leftBayW, pillarX, pillarW, rightBayX, rightBayW };
+  }
+
+  /* Draws the BACK / INTERIOR layer of the exact reference shop:
+     - Gate 1 (Left Bay): Opens for JCB 3DX Repairing + Mechanic & Exhaust Fan + Parked JCB on far left
+     - Gate 2 (Right Bay): Opens for Spare Parts Counter with OEM Parts Shelves, Oil Drums & Customer Buying Parts! */
+  function drawRealShopInterior(ctx, theme, roadTopY, time) {
+    if (lState.shopX > 1.25) return;
+    const m = getRealShopMetrics(roadTopY);
+    const { sc, shopW, shopH, sx, baseY, topY, bayTopY, bayH, leftBayX, leftBayW, rightBayX, rightBayW } = m;
+
+    ctx.save();
+    // Neighboring light building & green trees to the right (matching reference image!)
+    ctx.fillStyle = theme.rain ? '#1e293b' : '#cbd5e1';
+    ctx.fillRect(sx + shopW + 10 * sc, baseY - 125 * sc, 65 * sc, 125 * sc);
+    ctx.fillStyle = theme.rain ? '#0f3d24' : '#15803d';
+    ctx.beginPath(); ctx.arc(sx + shopW + 25 * sc, baseY - 22 * sc, 36 * sc, 0, Math.PI * 2); ctx.fill();
+
+    // Concrete Apron
+    ctx.fillStyle = theme.wetRoad ? '#273242' : '#475569';
+    ctx.beginPath();
+    ctx.moveTo(sx - 35 * sc, baseY);
+    ctx.lineTo(sx + shopW + 35 * sc, baseY);
+    ctx.lineTo(sx + shopW + 65 * sc, baseY + 58 * sc);
+    ctx.lineTo(sx - 65 * sc, baseY + 58 * sc);
+    ctx.closePath();
+    ctx.fill();
+
+    // Main Building Shell
+    ctx.fillStyle = '#181e29';
+    ctx.fillRect(sx, topY, shopW, shopH);
+
+    // Helper for Maroon Corrugated Rolling Shutters (Exact reddish-brown from reference image!)
+    const drawMaroonShutter = (x, y, w, h) => {
+      if (h <= 2) return;
+      const g = ctx.createLinearGradient(x, y, x, y + h);
+      g.addColorStop(0, '#7c2d27');
+      g.addColorStop(0.5, '#68241f');
+      g.addColorStop(1, '#4f1a16');
+      ctx.fillStyle = g;
+      ctx.fillRect(x, y, w, h);
+      ctx.strokeStyle = 'rgba(20, 6, 4, 0.45)';
+      ctx.lineWidth = 1.3;
+      for (let sy = y + 6 * sc; sy < y + h; sy += 6 * sc) {
+        ctx.beginPath(); ctx.moveTo(x, sy); ctx.lineTo(x + w, sy); ctx.stroke();
+      }
+      ctx.fillStyle = '#3b120f';
+      ctx.fillRect(x, y + h - 4 * sc, w, 4 * sc);
+    };
+
+    /* ================= GATE 1 (LEFT BAY — JCB REPAIRING SHOP) ================= */
+    const lInt = ctx.createLinearGradient(leftBayX, bayTopY, leftBayX, baseY);
+    lInt.addColorStop(0, '#221c14');
+    lInt.addColorStop(1, '#0e121a');
+    ctx.fillStyle = lInt;
+    ctx.fillRect(leftBayX, bayTopY, leftBayW, bayH);
+
+    // Warm Repair Bay Ceiling Lights & Glow
+    const lGlow = ctx.createRadialGradient(leftBayX + leftBayW * 0.5, bayTopY + 12 * sc, 6, leftBayX + leftBayW * 0.5, baseY, leftBayW * 0.85);
+    lGlow.addColorStop(0, `rgba(255, 224, 140, ${0.55 * theme.bayGlow})`);
+    lGlow.addColorStop(1, 'rgba(255, 224, 140, 0)');
+    ctx.fillStyle = lGlow;
+    ctx.fillRect(leftBayX, bayTopY, leftBayW, bayH);
+
+    ctx.fillStyle = '#ffffff';
+    ctx.fillRect(leftBayX + leftBayW * 0.18, bayTopY + 6 * sc, leftBayW * 0.28, 4 * sc);
+    ctx.fillRect(leftBayX + leftBayW * 0.56, bayTopY + 6 * sc, leftBayW * 0.28, 4 * sc);
+
+    // Industrial Exhaust Fan & Red Toolbox inside Repair Shop (from reference photo!)
+    const fanX = leftBayX + leftBayW * 0.72;
+    const fanY = baseY - 36 * sc;
+    ctx.fillStyle = '#292524';
+    ctx.fillRect(fanX - 24 * sc, fanY - 24 * sc, 48 * sc, 48 * sc);
+    ctx.strokeStyle = '#57534e'; ctx.lineWidth = 2 * sc;
+    ctx.beginPath(); ctx.arc(fanX, fanY, 17 * sc, 0, Math.PI * 2); ctx.stroke();
+
+    // Red Oil Drum & Hydraulic Jack in Repair Bay
+    ctx.fillStyle = '#dc2626';
+    ctx.fillRect(leftBayX + 18 * sc, baseY - 24 * sc, 15 * sc, 24 * sc);
+    ctx.fillStyle = '#facc15';
+    ctx.fillRect(leftBayX + 18 * sc, baseY - 15 * sc, 15 * sc, 5 * sc);
+
+    // Gate 1 Label Badge
+    ctx.fillStyle = 'rgba(0,0,0,0.75)';
+    ctx.fillRect(leftBayX + 8 * sc, bayTopY + 14 * sc, 118 * sc, 18 * sc);
+    ctx.fillStyle = '#F9C000';
+    ctx.font = `800 ${Math.round(9.5 * sc)}px "JetBrains Mono", monospace`;
+    ctx.textAlign = 'left';
+    ctx.fillText('GATE 1: JCB REPAIR', leftBayX + 13 * sc, bayTopY + 26 * sc);
+
+    // Gate 1 Rolling Shutter (Opens smoothly for JCB 3DX Repairing!)
+    const leftClosedH = bayH * (1 - lState.gate1Open);
+    drawMaroonShutter(leftBayX, bayTopY, leftBayW, leftClosedH);
+
+    /* ================= GATE 2 (RIGHT BAY — SPARE PARTS & BUYER) ================= */
+    const rInt = ctx.createLinearGradient(rightBayX, bayTopY, rightBayX, baseY);
+    rInt.addColorStop(0, '#262015');
+    rInt.addColorStop(1, '#0d1119');
+    ctx.fillStyle = rInt;
+    ctx.fillRect(rightBayX, bayTopY, rightBayW, bayH);
+
+    const rGlow = ctx.createRadialGradient(rightBayX + rightBayW * 0.48, bayTopY + 12 * sc, 6, rightBayX + rightBayW * 0.48, baseY, rightBayW * 0.9);
+    rGlow.addColorStop(0, `rgba(255, 238, 185, ${0.65 * theme.bayGlow})`);
+    rGlow.addColorStop(1, 'rgba(255, 238, 185, 0)');
+    ctx.fillStyle = rGlow;
+    ctx.fillRect(rightBayX, bayTopY, rightBayW, bayH);
+
+    // Overhead white LED tube lights inside Parts Bay
+    ctx.fillStyle = '#ffffff';
+    ctx.fillRect(rightBayX + rightBayW * 0.14, bayTopY + 6 * sc, rightBayW * 0.3, 4 * sc);
+    ctx.fillRect(rightBayX + rightBayW * 0.56, bayTopY + 6 * sc, rightBayW * 0.3, 4 * sc);
+
+    // Spare Parts Racks & Yellow/Blue JCB OEM Boxes inside Gate 2!
+    const rackX = rightBayX + 12 * sc;
+    const rackW = rightBayW * 0.54;
+    ctx.fillStyle = '#334155';
+    ctx.fillRect(rackX, bayTopY + 36 * sc, rackW, bayH - 36 * sc);
+    const boxColors = ['#F9C000', '#38bdf8', '#f8fafc', '#fb923c', '#F9C000'];
+    for (let shelf = 0; shelf < 4; shelf++) {
+      const sy = bayTopY + (42 + shelf * 30) * sc;
+      ctx.fillStyle = '#1e293b';
+      ctx.fillRect(rackX, sy + 20 * sc, rackW, 3 * sc);
+      for (let b = 0; b < 5; b++) {
+        ctx.fillStyle = boxColors[(shelf + b) % boxColors.length];
+        ctx.fillRect(rackX + (4 + b * 26) * sc, sy + 4 * sc, 21 * sc, 15 * sc);
+      }
+    }
+
+    // Parts Counter Desk
+    const deskX = rightBayX + 18 * sc;
+    const deskY = baseY - 34 * sc;
+    ctx.fillStyle = '#475569';
+    ctx.fillRect(deskX, deskY, rightBayW * 0.52, 34 * sc);
+    ctx.fillStyle = '#F9C000';
+    ctx.fillRect(deskX - 2 * sc, deskY, rightBayW * 0.52 + 4 * sc, 5 * sc);
+    // Hydraulic Pump & Filter Box on Counter
+    ctx.fillStyle = '#cbd5e1';
+    ctx.fillRect(deskX + 26 * sc, deskY - 12 * sc, 16 * sc, 12 * sc);
+    ctx.fillStyle = '#F9C000';
+    ctx.fillRect(deskX + 48 * sc, deskY - 14 * sc, 14 * sc, 14 * sc);
+
+    // Shopkeeper behind Counter (Yellow JCB Shirt)
+    const skX = deskX + 22 * sc;
+    const skY = deskY - 26 * sc;
+    ctx.fillStyle = '#fde68a';
+    ctx.beginPath(); ctx.arc(skX, skY - 10 * sc, 6.5 * sc, 0, Math.PI * 2); ctx.fill();
+    ctx.fillStyle = '#eab308';
+    ctx.beginPath(); ctx.roundRect(skX - 9 * sc, skY - 2 * sc, 18 * sc, 28 * sc, 4 * sc); ctx.fill();
+
+    // Person / Customer Buying Spare Parts in Gate 2! (Animated arm picking up part box)
+    const custX = deskX + 68 * sc;
+    const custY = baseY - 62 * sc;
+    const armLift = Math.sin(time * 4.5) * 4 * sc;
+    // Customer Legs (Dark Trousers)
+    ctx.fillStyle = '#1e293b';
+    ctx.fillRect(custX - 7 * sc, custY + 30 * sc, 6 * sc, 32 * sc);
+    ctx.fillRect(custX + 1 * sc, custY + 30 * sc, 6 * sc, 32 * sc);
+    // Customer Shirt (Crisp White/Light Blue Shirt like reference image!)
+    ctx.fillStyle = '#e2e8f0';
+    ctx.beginPath(); ctx.roundRect(custX - 10 * sc, custY + 6 * sc, 20 * sc, 26 * sc, 5 * sc); ctx.fill();
+    // Customer Head & Hair
+    ctx.fillStyle = '#d97706';
+    ctx.beginPath(); ctx.arc(custX, custY - 2 * sc, 7 * sc, 0, Math.PI * 2); ctx.fill();
+    ctx.fillStyle = '#0f172a';
+    ctx.beginPath(); ctx.arc(custX + 1 * sc, custY - 4 * sc, 7 * sc, Math.PI * 0.9, Math.PI * 2.05); ctx.fill();
+    // Customer Arm holding/receiving JCB Spare Part Box
+    ctx.strokeStyle = '#e2e8f0';
+    ctx.lineWidth = 5 * sc;
+    ctx.lineCap = 'round';
+    ctx.beginPath();
+    ctx.moveTo(custX - 6 * sc, custY + 12 * sc);
+    ctx.lineTo(custX - 20 * sc, custY + 18 * sc - armLift);
+    ctx.stroke();
+    ctx.fillStyle = '#F9C000';
+    ctx.fillRect(custX - 30 * sc, custY + 11 * sc - armLift, 12 * sc, 10 * sc);
+
+    // Stacked Colorful Oil & Grease Buckets on far right (exact detail from reference photo!)
+    const bucketColors = ['#facc15', '#2563eb', '#e2e8f0', '#f59e0b', '#1d4ed8'];
+    for (let col = 0; col < 3; col++) {
+      for (let row = 0; row < 4; row++) {
+        ctx.fillStyle = bucketColors[(col + row) % bucketColors.length];
+        ctx.fillRect(rightBayX + rightBayW - (14 + col * 13) * sc, baseY - (12 + row * 12) * sc, 10 * sc, 10 * sc);
+      }
+    }
+
+    // Gate 2 Label Badge
+    ctx.fillStyle = 'rgba(0,0,0,0.75)';
+    ctx.fillRect(rightBayX + 8 * sc, bayTopY + 14 * sc, 128 * sc, 18 * sc);
+    ctx.fillStyle = '#34d399';
+    ctx.font = `800 ${Math.round(9.5 * sc)}px "JetBrains Mono", monospace`;
+    ctx.textAlign = 'left';
+    ctx.fillText('GATE 2: PARTS SHOP', rightBayX + 13 * sc, bayTopY + 26 * sc);
+
+    // Gate 2 Rolling Shutter (Opens smoothly for Spare Parts Counter & Buyer!)
+    const rightClosedH = bayH * (1 - lState.gate2Open);
+    drawMaroonShutter(rightBayX, bayTopY, rightBayW, rightClosedH);
+
+    ctx.restore();
+  }
+
+  /* Draws the FRONT FASCIA, EXACT SIGNBOARD ("सोलापूर इंटरप्रायझेस • SOLAPUR ENTERPRISES"), & CENTER PILLAR */
+  function drawRealShopFront(ctx, theme, roadTopY) {
+    if (lState.shopX > 1.25) return;
+    const m = getRealShopMetrics(roadTopY);
+    const { sc, shopW, sx, baseY, topY, bannerH, fasciaH, bayTopY, bayH, pillarX, pillarW, rightBayX, rightBayW } = m;
+
+    ctx.save();
+
+    // 1. Corrugated Metal Roof Edge
+    ctx.fillStyle = '#cbd5e1';
+    ctx.fillRect(sx - 6 * sc, topY - 5 * sc, shopW + 12 * sc, 6 * sc);
+    ctx.fillStyle = '#64748b';
+    ctx.fillRect(sx - 6 * sc, topY - 5 * sc, shopW + 12 * sc, 2 * sc);
+
+    // 2. EXACT MAIN SIGNBOARD (White/Silver-Yellow Flex Banner matching reference image)
+    const sbGrad = ctx.createLinearGradient(sx, topY, sx + shopW, topY);
+    sbGrad.addColorStop(0, '#d6dce5');
+    sbGrad.addColorStop(0.18, '#f1f5f9');
+    sbGrad.addColorStop(0.5, '#f8fafc');
+    sbGrad.addColorStop(0.84, '#f1f5f9');
+    sbGrad.addColorStop(1, '#fef08a');
+    ctx.fillStyle = sbGrad;
+    ctx.fillRect(sx, topY, shopW, bannerH);
+
+    ctx.strokeStyle = (theme.rain || theme.fog > 0.2) ? '#fde047' : '#475569';
+    ctx.lineWidth = 2 * sc;
+    ctx.strokeRect(sx, topY, shopW, bannerH);
+
+    // Left Photo Inset on Signboard (JCB on Dirt)
+    const insetW = shopW * 0.165;
+    ctx.fillStyle = '#94a3b8';
+    ctx.fillRect(sx + 5 * sc, topY + 5 * sc, insetW, bannerH - 10 * sc);
+    ctx.fillStyle = '#78716c';
+    ctx.fillRect(sx + 5 * sc, topY + bannerH * 0.55, insetW, bannerH * 0.45 - 5 * sc);
+    ctx.fillStyle = '#F9C000';
+    ctx.fillRect(sx + 48 * sc, topY + 34 * sc, 30 * sc, 20 * sc);
+    ctx.fillStyle = '#111827';
+    ctx.beginPath(); ctx.arc(sx + 54 * sc, topY + 56 * sc, 6 * sc, 0, Math.PI * 2); ctx.arc(sx + 74 * sc, topY + 56 * sc, 5 * sc, 0, Math.PI * 2); ctx.fill();
+
+    // Right Parts Collage Inset on Signboard (with Yellow JCB Badge)
+    const rInsetX = sx + shopW - insetW - 5 * sc;
+    ctx.fillStyle = '#fef08a';
+    ctx.fillRect(rInsetX, topY + 5 * sc, insetW, bannerH - 10 * sc);
+    ctx.fillStyle = '#334155';
+    ctx.fillRect(rInsetX + 12 * sc, topY + 14 * sc, 14 * sc, 36 * sc);
+    ctx.fillRect(rInsetX + 34 * sc, topY + 18 * sc, 16 * sc, 30 * sc);
+    ctx.fillStyle = '#0f172a';
+    ctx.fillRect(rInsetX + insetW - 38 * sc, topY + bannerH - 24 * sc, 32 * sc, 14 * sc);
+    ctx.fillStyle = '#F9C000';
+    ctx.font = `900 ${Math.round(9 * sc)}px Inter, sans-serif`;
+    ctx.textAlign = 'center';
+    ctx.fillText('JCB', rInsetX + insetW - 22 * sc, topY + bannerH - 14 * sc);
+
+    // Marathi Text: "सोलापूर इंटरप्रायझेस"
+    ctx.fillStyle = '#1e293b';
+    ctx.textAlign = 'left';
+    ctx.font = `900 ${Math.round(24 * sc)}px "Noto Sans Devanagari", sans-serif`;
+    ctx.fillText('सोलापूर', sx + insetW + 14 * sc, topY + 33 * sc);
+    ctx.font = `800 ${Math.round(13.5 * sc)}px "Noto Sans Devanagari", sans-serif`;
+    ctx.fillText('इंटरप्रायझेस', sx + insetW + 96 * sc, topY + 33 * sc);
+
+    // Center Mechanic Mascot (Yellow Helmet & Shirt)
+    const mascX = sx + shopW * 0.51;
+    const mascY = topY + 26 * sc;
+    ctx.fillStyle = '#facc15';
+    ctx.beginPath(); ctx.arc(mascX, mascY - 12 * sc, 9 * sc, Math.PI, 0); ctx.fill();
+    ctx.fillStyle = '#fde68a';
+    ctx.beginPath(); ctx.arc(mascX, mascY - 8 * sc, 7 * sc, 0, Math.PI * 2); ctx.fill();
+    ctx.fillStyle = '#eab308';
+    ctx.beginPath(); ctx.roundRect(mascX - 11 * sc, mascY, 22 * sc, 16 * sc, 4 * sc); ctx.fill();
+
+    // English Text: "SOLAPUR ENTERPRISES"
+    ctx.fillStyle = '#1e293b';
+    ctx.font = `900 ${Math.round(23 * sc)}px "Barlow Condensed", sans-serif`;
+    ctx.fillText('SOLAPUR', sx + shopW * 0.555, topY + 32 * sc);
+    ctx.font = `800 ${Math.round(14 * sc)}px "Barlow Condensed", sans-serif`;
+    ctx.fillText('ENTERPRISES', sx + shopW * 0.695, topY + 32 * sc);
+
+    // Bottom 8 Technical Icon Row (Transmission, Fuel Injection, Hydraulics, Electronics, Engine, Welding, JCB Parts, Hoses)
+    const iconY = topY + 50 * sc;
+    const iconStart = sx + insetW + 16 * sc;
+    const iconGap = (shopW - insetW * 2 - 36 * sc) / 8;
+    const iconColors = ['#334155', '#334155', '#F9C000', '#334155', '#334155', '#1e293b', '#facc15', '#38bdf8'];
+    for (let i = 0; i < 8; i++) {
+      const ix = iconStart + i * iconGap;
+      ctx.fillStyle = i === 2 ? '#111827' : '#e2e8f0';
+      ctx.fillRect(ix, iconY, 22 * sc, 20 * sc);
+      ctx.fillStyle = iconColors[i];
+      ctx.beginPath(); ctx.arc(ix + 11 * sc, iconY + 10 * sc, 5 * sc, 0, Math.PI * 2); ctx.fill();
+    }
+
+    // 3. Light-Grey Corrugated Fascia Beam Under Signboard
+    ctx.fillStyle = '#cbd5e1';
+    ctx.fillRect(sx - 4 * sc, topY + bannerH, shopW + 8 * sc, fasciaH);
+    ctx.fillStyle = '#94a3b8';
+    ctx.fillRect(sx - 4 * sc, topY + bannerH + fasciaH - 4 * sc, shopW + 8 * sc, 4 * sc);
+
+    // 4. Center Corrugated Light-Grey Pillar + Blue/White Notice Poster (matching reference image!)
+    ctx.fillStyle = '#cbd5e1';
+    ctx.fillRect(pillarX, bayTopY, pillarW, bayH);
+    ctx.strokeStyle = 'rgba(71, 85, 105, 0.35)';
+    ctx.lineWidth = 1.5;
+    for (let px = pillarX + 6 * sc; px < pillarX + pillarW; px += 7 * sc) {
+      ctx.beginPath(); ctx.moveTo(px, bayTopY); ctx.lineTo(px, baseY); ctx.stroke();
+    }
+    const bPad = 7 * sc;
+    const bW = pillarW - bPad * 2;
+    const bH = bayH * 0.44;
+    ctx.fillStyle = '#e0f2fe';
+    ctx.fillRect(pillarX + bPad, bayTopY + 14 * sc, bW, bH);
+    ctx.fillStyle = '#1d4ed8';
+    ctx.fillRect(pillarX + bPad, bayTopY + 14 * sc, bW, 13 * sc);
+    ctx.fillStyle = '#dc2626';
+    ctx.fillRect(pillarX + bPad + 4 * sc, bayTopY + 32 * sc, bW - 8 * sc, 4 * sc);
+    ctx.fillStyle = '#0284c7';
+    ctx.fillRect(pillarX + bPad + 4 * sc, bayTopY + 42 * sc, bW * 0.65, 3 * sc);
+    ctx.fillRect(pillarX + bPad + 4 * sc, bayTopY + 50 * sc, bW * 0.8, 3 * sc);
+
+    // Right edge framing pillar
+    ctx.fillStyle = '#94a3b8';
+    ctx.fillRect(rightBayX + rightBayW, bayTopY, (sx + shopW) - (rightBayX + rightBayW), bayH);
+
+    ctx.restore();
+  }
+
+  function drawWheel(ctx, cx, cy, r, ang) {
+    ctx.save();
+    ctx.translate(cx, cy);
+    ctx.rotate(ang);
+    ctx.fillStyle = '#14171c';
+    ctx.beginPath(); ctx.arc(0, 0, r, 0, Math.PI * 2); ctx.fill();
+    ctx.fillStyle = '#0a0c10';
+    for (let i = 0; i < 14; i++) {
+      ctx.save(); ctx.rotate((i / 14) * Math.PI * 2);
+      ctx.fillRect(-3.5, -r - 2.5, 7, 5);
+      ctx.restore();
+    }
+    const rim = ctx.createRadialGradient(-r * 0.12, -r * 0.12, 2, 0, 0, r * 0.56);
+    rim.addColorStop(0, '#fde047'); rim.addColorStop(0.65, '#eab308'); rim.addColorStop(1, '#a16207');
+    ctx.fillStyle = rim;
+    ctx.beginPath(); ctx.arc(0, 0, r * 0.54, 0, Math.PI * 2); ctx.fill();
+    ctx.fillStyle = '#1e293b';
+    ctx.beginPath(); ctx.arc(0, 0, r * 0.22, 0, Math.PI * 2); ctx.fill();
+    ctx.restore();
+  }
+
+  function drawJCB(ctx, cx, groundY, sc, time, theme) {
+    ctx.save();
+    ctx.translate(cx, groundY);
+    ctx.scale(sc, sc);
+    const bounce = LOADER_CFG.reducedMotion ? 0 : Math.sin(time * 26) * 1.1;
+
+    ctx.fillStyle = 'rgba(0,0,0,0.62)';
+    ctx.beginPath(); ctx.ellipse(8, 2, 148, 13, 0, 0, Math.PI * 2); ctx.fill();
+
+    // Rear Backhoe
+    ctx.save();
+    ctx.translate(-82, -52 + bounce);
+    ctx.strokeStyle = '#111827'; ctx.lineWidth = 17; ctx.lineCap = 'round'; ctx.lineJoin = 'round';
+    ctx.beginPath(); ctx.moveTo(-4, 6); ctx.lineTo(-34, -56); ctx.lineTo(-48, -106); ctx.stroke();
+    ctx.strokeStyle = '#F9C000'; ctx.lineWidth = 11;
+    ctx.beginPath(); ctx.moveTo(-4, 6); ctx.lineTo(-34, -56); ctx.lineTo(-48, -106); ctx.stroke();
+    ctx.strokeStyle = '#e2e8f0'; ctx.lineWidth = 4;
+    ctx.beginPath(); ctx.moveTo(-14, -22); ctx.lineTo(-36, -78); ctx.stroke();
+    ctx.strokeStyle = '#1f2937'; ctx.lineWidth = 10;
+    ctx.beginPath(); ctx.moveTo(-48, -106); ctx.lineTo(-65, -40); ctx.stroke();
+    ctx.fillStyle = '#181c24';
+    ctx.beginPath(); ctx.moveTo(-65, -42); ctx.quadraticCurveTo(-90, -32, -86, -8); ctx.lineTo(-56, -12); ctx.closePath(); ctx.fill();
+    ctx.restore();
+
+    // Body & Metallic Bonnet
+    ctx.save();
+    ctx.translate(0, bounce);
+    ctx.fillStyle = '#181e29';
+    ctx.beginPath(); ctx.roundRect(-84, -54, 166, 26, 5); ctx.fill();
+
+    const hood = ctx.createLinearGradient(12, -100, 12, -44);
+    hood.addColorStop(0, '#fde047'); hood.addColorStop(0.4, '#F9C000'); hood.addColorStop(1, '#b45309');
+    ctx.fillStyle = hood;
+    ctx.beginPath(); ctx.moveTo(12, -98); ctx.lineTo(84, -84); ctx.quadraticCurveTo(96, -80, 96, -66); ctx.lineTo(94, -44); ctx.lineTo(12, -44); ctx.closePath(); ctx.fill();
+    ctx.fillStyle = '#111827'; ctx.fillRect(16, -72, 74, 16);
+    ctx.fillStyle = '#F9C000'; ctx.font = '900 11.5px Inter, sans-serif'; ctx.fillText('JCB 3DX', 24, -60);
+    ctx.fillStyle = '#111827'; ctx.fillRect(32, -136, 7, 44);
+
+    // Cabin + Operator Silhouette
+    ctx.fillStyle = '#141923';
+    ctx.beginPath(); ctx.moveTo(-64, -50); ctx.lineTo(-56, -134); ctx.lineTo(10, -134); ctx.lineTo(22, -50); ctx.closePath(); ctx.fill();
+    ctx.fillStyle = '#F9C000';
+    ctx.beginPath(); ctx.roundRect(-62, -142, 78, 10, 4); ctx.fill();
+    ctx.fillStyle = 'rgba(148, 210, 255, 0.36)';
+    ctx.beginPath(); ctx.moveTo(-52, -74); ctx.lineTo(-47, -126); ctx.lineTo(4, -126); ctx.lineTo(13, -74); ctx.closePath(); ctx.fill();
+    ctx.fillStyle = '#0f172a';
+    ctx.beginPath(); ctx.arc(-18, -108, 8.5, 0, Math.PI * 2); ctx.fill();
+    ctx.beginPath(); ctx.roundRect(-28, -98, 20, 22, 6); ctx.fill();
+    ctx.fillStyle = '#F9C000'; ctx.fillRect(-56, -72, 68, 24);
+
+    // Pulsing Amber Roof Beacon
+    const bp = 0.45 + 0.55 * Math.abs(Math.sin(time * 10));
+    ctx.fillStyle = '#f59e0b';
+    ctx.beginPath(); ctx.roundRect(-28, -155, 12, 12, 4); ctx.fill();
+    const bg = ctx.createRadialGradient(-22, -150, 2, -22, -150, 46 * bp + 12);
+    bg.addColorStop(0, `rgba(255,205,40,${0.85 * bp})`); bg.addColorStop(1, 'rgba(249,115,22,0)');
+    ctx.fillStyle = bg; ctx.beginPath(); ctx.arc(-22, -150, 46 * bp + 12, 0, Math.PI * 2); ctx.fill();
+
+    // Front Loader & Chrome Piston
+    ctx.save();
+    ctx.translate(16, -78);
+    ctx.strokeStyle = '#111827'; ctx.lineWidth = 16; ctx.lineCap = 'round'; ctx.lineJoin = 'round';
+    ctx.beginPath(); ctx.moveTo(0, 0); ctx.lineTo(58, -14); ctx.lineTo(106, 36); ctx.stroke();
+    ctx.strokeStyle = '#F9C000'; ctx.lineWidth = 10.5;
+    ctx.beginPath(); ctx.moveTo(0, 0); ctx.lineTo(58, -14); ctx.lineTo(106, 36); ctx.stroke();
+    ctx.strokeStyle = '#e2e8f0'; ctx.lineWidth = 4;
+    ctx.beginPath(); ctx.moveTo(30, 14); ctx.lineTo(74, -2); ctx.stroke();
+    ctx.fillStyle = '#181c24';
+    ctx.beginPath(); ctx.moveTo(104, 14); ctx.lineTo(144, 46); ctx.lineTo(102, 48); ctx.quadraticCurveTo(92, 30, 104, 14); ctx.closePath(); ctx.fill();
+    ctx.restore();
+
+    // Headlight Beam
+    ctx.fillStyle = '#fef9c3'; ctx.fillRect(92, -74, 5, 9);
+    if (theme.headlights > 0.15) {
+      const hl = ctx.createLinearGradient(96, -70, 350, -20);
+      hl.addColorStop(0, `rgba(255,248,210,${0.68 * theme.headlights})`);
+      hl.addColorStop(0.5, `rgba(255,235,170,${0.22 * theme.headlights})`);
+      hl.addColorStop(1, 'rgba(255,238,175,0)');
+      ctx.fillStyle = hl;
+      ctx.beginPath(); ctx.moveTo(96, -74); ctx.lineTo(350, -104); ctx.lineTo(350, 22); ctx.lineTo(96, -64); ctx.closePath(); ctx.fill();
+    }
+
+    // Rear Brake Lights
+    ctx.fillStyle = lState.speedRatio < 0.4 ? '#ff2a2a' : '#991b1b';
+    ctx.fillRect(-86, -54, 5, 11);
+    ctx.restore();
+
+    drawWheel(ctx, -46, -37, 37, lState.wheelAngle);
+    drawWheel(ctx, 64, -27, 27, lState.wheelAngle * 1.37);
+    ctx.restore();
+  }
+
+  function renderLoader(time, dt) {
+    const theme = THEMES[lState.themeKey];
+    lCtx.save();
+    lCtx.scale(dpr, dpr);
+
+    const horizonY = LH * 0.54;
+    const roadTopY = LH * 0.66;
+    const roadH = LH * 0.36;
+    const m = getRealShopMetrics(roadTopY);
+
+    if (lState.cameraZoom > 1.001) {
+      const zx = m.sx + m.shopW * 0.5;
+      const zy = m.bayTopY + m.bayH * 0.55;
+      lCtx.translate(LW * 0.5, LH * 0.5);
+      lCtx.scale(lState.cameraZoom, lState.cameraZoom);
+      lCtx.translate(-zx + (zx - LW * 0.5) / lState.cameraZoom, -zy + (zy - LH * 0.5) / lState.cameraZoom);
+    }
+
+    // 1. Sky
+    const sky = lCtx.createLinearGradient(0, 0, 0, horizonY);
+    sky.addColorStop(0, theme.skyTop); sky.addColorStop(0.6, theme.skyMid); sky.addColorStop(1, theme.skyHorizon);
+    lCtx.fillStyle = sky; lCtx.fillRect(0, 0, LW, horizonY + 8);
+
+    // Sun
+    if (!theme.rain) {
+      const sunX = LW * 0.78;
+      const sunY = horizonY * theme.sunY;
+      const sg = lCtx.createRadialGradient(sunX, sunY, 6, sunX, sunY, LW * 0.24);
+      sg.addColorStop(0, theme.sunColor); sg.addColorStop(0.28, theme.sunGlow); sg.addColorStop(1, 'rgba(0,0,0,0)');
+      lCtx.fillStyle = sg; lCtx.beginPath(); lCtx.arc(sunX, sunY, LW * 0.24, 0, Math.PI * 2); lCtx.fill();
+      lCtx.fillStyle = theme.sunColor; lCtx.beginPath(); lCtx.arc(sunX, sunY, lState.themeKey === 'summer' ? 28 : 22, 0, Math.PI * 2); lCtx.fill();
+    }
+
+    // Overhead Power Lines
+    lCtx.strokeStyle = 'rgba(15, 23, 42, 0.28)';
+    lCtx.lineWidth = 1.2;
+    [0.08, 0.13].forEach((yy) => {
+      lCtx.beginPath(); lCtx.moveTo(0, LH * yy); lCtx.quadraticCurveTo(LW * 0.5, LH * (yy + 0.025), LW, LH * yy); lCtx.stroke();
+    });
+
+    // Clouds
+    lCtx.fillStyle = theme.cloudColor;
+    clouds.forEach((c) => {
+      const cx = ((c.x * LW - lState.worldScroll * 25) % (LW + c.w * 2) + (LW + c.w * 2)) % (LW + c.w * 2) - c.w;
+      lCtx.beginPath();
+      lCtx.ellipse(cx, c.y * horizonY, c.w * 0.5, c.h * 0.5, 0, 0, Math.PI * 2);
+      lCtx.ellipse(cx + c.w * 0.25, c.y * horizonY + 6, c.w * 0.32, c.h * 0.4, 0, 0, Math.PI * 2);
+      lCtx.fill();
+    });
+
+    // Rainy Lightning Flash
+    if (theme.rain && lState.lightningAlpha > 0.02) {
+      lCtx.fillStyle = `rgba(215, 238, 255, ${lState.lightningAlpha * 0.35})`;
+      lCtx.fillRect(0, 0, LW, LH);
+    }
+
+    // Distant Hills
+    lCtx.fillStyle = theme.hillFar;
+    lCtx.beginPath(); lCtx.moveTo(0, horizonY + 8);
+    for (let x = 0; x <= LW + 40; x += 40) {
+      const y = horizonY - 22 - Math.sin((x + lState.worldScroll * 25) * 0.003) * 24;
+      lCtx.lineTo(x, y);
+    }
+    lCtx.lineTo(LW, horizonY + 8); lCtx.closePath(); lCtx.fill();
+
+    // Ground & Asphalt Road
+    const gg = lCtx.createLinearGradient(0, horizonY, 0, roadTopY);
+    gg.addColorStop(0, theme.groundTop); gg.addColorStop(1, theme.groundBot);
+    lCtx.fillStyle = gg; lCtx.fillRect(0, horizonY, LW, roadTopY - horizonY + 4);
+
+    const rg = lCtx.createLinearGradient(0, roadTopY, 0, roadTopY + roadH);
+    rg.addColorStop(0, theme.roadTop); rg.addColorStop(1, theme.roadBot);
+    lCtx.fillStyle = rg; lCtx.fillRect(0, roadTopY, LW, roadH + 30);
+
+    // Road Dashes
+    const dashOff = (lState.worldScroll * 460) % 120;
+    lCtx.fillStyle = 'rgba(241,245,249,0.82)';
+    for (let dx = -dashOff; dx < LW + 120; dx += 120) lCtx.fillRect(dx, roadTopY + roadH * 0.44, 62, 5);
+
+    // Wet Monsoon Road Sheen
+    if (theme.wetRoad) {
+      const wet = lCtx.createLinearGradient(0, roadTopY, 0, roadTopY + roadH);
+      wet.addColorStop(0, 'rgba(125, 211, 252, 0.12)');
+      wet.addColorStop(0.5, 'rgba(56, 189, 248, 0.16)');
+      wet.addColorStop(1, 'rgba(15, 23, 42, 0.08)');
+      lCtx.fillStyle = wet;
+      lCtx.fillRect(0, roadTopY, LW, roadH);
+    }
+
+    // Shop Back / Interior Layer (Gate 1 Repair Bay + Gate 2 Spare Parts Counter & Buyer!)
+    drawRealShopInterior(lCtx, theme, roadTopY, time);
+
+    // JCB 3DX Drives directly into GATE 1 (Left Repair Bay) for Repairing!
+    const startSc = Math.max(0.5, Math.min(1.0, Math.min(LW / 900, LH / 640)));
+    const startX = LW * (LW < 640 ? 0.22 : 0.20);
+    const startY = roadTopY + roadH * 0.56;
+    const e = easeInOutCubic(lState.enterProgress);
+    const jcbX = startX + ((m.leftBayX + m.leftBayW * 0.48) - startX) * e;
+    const jcbY = startY + ((m.baseY - 4 * m.sc) - startY) * e;
+    const jcbSc = startSc + (startSc * 0.72 - startSc) * e;
+
+    drawJCB(lCtx, jcbX, jcbY, jcbSc, time, theme);
+
+    // Shop Front Signboard & Pillar Layer
+    drawRealShopFront(lCtx, theme, roadTopY);
+
+    // Exhaust & Weather Tire Particles
+    if (Math.random() < (theme.fog > 0.2 ? 0.6 : 0.35)) {
+      exhaust.push({ x: jcbX + 34 * jcbSc, y: jcbY - 140 * jcbSc, vx: -62, vy: -28, r: (theme.fog > 0.2 ? 5.5 : 4) * jcbSc, l: 0 });
+    }
+    if (lState.speedRatio > 0.15 && lState.enterProgress < 0.25 && (theme.dust || theme.rain) && Math.random() < 0.65) {
+      wheelFX.push({
+        x: jcbX - 55 * jcbSc, y: jcbY - 4,
+        vx: -85 - lState.speedRatio * 120, vy: theme.rain ? (-35 - Math.random() * 45) : (-12 - Math.random() * 20),
+        r: (theme.rain ? 2.2 : 6) * jcbSc, rain: theme.rain, l: 0
+      });
+    }
+
+    for (let i = exhaust.length - 1; i >= 0; i--) {
+      const p = exhaust[i]; p.l += dt;
+      if (p.l > 0.6) { exhaust.splice(i, 1); continue; }
+      p.x += p.vx * dt; p.y += p.vy * dt; p.r += dt * 13;
+      const col = theme.fog > 0.2 ? '226,238,250' : '180,190,205';
+      lCtx.fillStyle = `rgba(${col},${0.36 * (1 - p.l / 0.6)})`;
+      lCtx.beginPath(); lCtx.arc(p.x, p.y, p.r, 0, Math.PI * 2); lCtx.fill();
+    }
+    for (let i = wheelFX.length - 1; i >= 0; i--) {
+      const p = wheelFX[i]; p.l += dt;
+      if (p.l > 0.5) { wheelFX.splice(i, 1); continue; }
+      p.x += p.vx * dt; p.y += p.vy * dt;
+      if (p.rain) p.vy += 190 * dt;
+      const a = 0.42 * (1 - p.l / 0.5);
+      lCtx.fillStyle = p.rain ? `rgba(195,232,255,${a})` : `rgba(214,180,126,${a})`;
+      lCtx.beginPath(); lCtx.arc(p.x, p.y, p.r, 0, Math.PI * 2); lCtx.fill();
+    }
+
+    // Raindrops
+    if (theme.rain) {
+      lCtx.strokeStyle = 'rgba(195,228,255,0.42)'; lCtx.lineWidth = 1.25;
+      lCtx.beginPath();
+      raindrops.forEach((d) => {
+        const rx = ((d.x * LW - performance.now() * 0.24 * d.sp) % LW + LW) % LW;
+        const ry = (d.y * LH + performance.now() * 0.78 * d.sp) % LH;
+        lCtx.moveTo(rx, ry); lCtx.lineTo(rx - 8, ry + d.len);
+      });
+      lCtx.stroke();
+    }
+
+    // Winter Fog
+    if (theme.fog > 0.2) {
+      const fogGrad = lCtx.createLinearGradient(0, horizonY - 40, 0, LH);
+      fogGrad.addColorStop(0, `rgba(226, 238, 250, ${0.32 * theme.fog})`);
+      fogGrad.addColorStop(0.45, `rgba(203, 220, 238, ${0.18 * theme.fog})`);
+      fogGrad.addColorStop(1, 'rgba(203, 220, 238, 0.04)');
+      lCtx.fillStyle = fogGrad;
+      lCtx.fillRect(0, horizonY - 40, LW, LH - horizonY + 40);
+
+      lCtx.fillStyle = 'rgba(241, 248, 255, 0.5)';
+      snowMist.forEach((mDot) => {
+        const mx = ((mDot.x * LW - time * mDot.sp * LW) % LW + LW) % LW;
+        const my = ((mDot.y * LH + Math.sin(time + mDot.x * 10) * 12) % LH + LH) % LH;
+        lCtx.beginPath(); lCtx.arc(mx, my, mDot.r, 0, Math.PI * 2); lCtx.fill();
+      });
+    }
+
+    lCtx.fillStyle = theme.ambient;
+    lCtx.fillRect(0, 0, LW, LH);
+    lCtx.restore();
+  }
+
+  function finishLoaderSmooth() {
+    if (lState.phase === 'done') return;
+    lState.phase = 'entering';
+    statusLed.className = 'w-2 h-2 rounded-full bg-emerald-400 led-pulse shrink-0';
+    hudPhase.textContent = 'GATE 1: JCB PARKED IN REPAIR BAY • GATE 2: PARTS COUNTER OPEN';
+    hudMsg.textContent = 'Welcome to Solapur Enterprises — JCB in Repair Shop & Parts Counter Ready!';
+
+    lSchedule(() => {
+      lState.phase = 'zooming';
+      loaderRoot.classList.add('zooming');
+    }, 1500);
+
+    lSchedule(() => {
+      lState.phase = 'done';
+      JCBSound.stopEngine();
+      loaderRoot.classList.add('gone');
+      document.body.classList.remove('loading-lock');
+      siteWrapper.classList.add('ready');
+      runCounters();
+    }, 2250);
+  }
+
+  function replayLoader(themeKey) {
+    lClear();
+    if (themeKey && THEMES[themeKey]) applyLoaderThemeUI(themeKey);
+    window.scrollTo({ top: 0, behavior: 'instant' });
+    document.body.classList.add('loading-lock');
+    const wasDone = lState.phase === 'done';
+    lState.progress = 0; lState.elapsed = 0; lState.phase = 'driving';
+    lState.speedRatio = 1.0; lState.shopX = 1.38;
+    lState.gate1Open = 0.12; lState.gate2Open = 0.12;
+    lState.gate1SoundPlayed = false; lState.gate2SoundPlayed = false; lState.hornPlayed = false;
+    lState.enterProgress = 0; lState.cameraZoom = 1;
+    loaderRoot.classList.remove('zooming', 'gone');
+    statusLed.className = 'w-2 h-2 rounded-full bg-amber-400 led-pulse shrink-0';
+    hudPhase.textContent = 'GATE 1: JCB REPAIR BAY • GATE 2: PARTS COUNTER';
+    hudMsg.textContent = 'Driving JCB 3DX towards Solapur Enterprises Workshop...';
+    JCBSound.startEngine();
+    JCBSound.playHorn(true);
+    if (wasDone) { lastTs = performance.now(); requestAnimationFrame(loaderLoop); }
+  }
+
+  let lastTs = 0;
+  function loaderLoop(ts) {
+    if (lState.phase === 'done') return;
+    const dt = Math.min((ts - lastTs) / 1000 || 0.016, 0.05);
+    lastTs = ts;
+    const time = ts / 1000;
+
+    if (THEMES[lState.themeKey].rain) {
+      lState.nextLightning -= dt;
+      if (lState.nextLightning <= 0) { lState.lightningAlpha = 1; lState.nextLightning = 2.2 + Math.random() * 2.5; }
+      lState.lightningAlpha *= Math.exp(-dt * 8);
+    } else {
+      lState.lightningAlpha = 0;
+    }
+
+    if (lState.phase === 'driving') {
+      lState.elapsed += dt * 1000;
+      const norm = Math.min(1, lState.elapsed / LOADER_CFG.durationMs);
+      lState.progress = easeOutCubic(norm) * 100;
+      hudPct.textContent = Math.round(lState.progress) + '%';
+      hudBar.style.transform = `scaleX(${lState.progress / 100})`;
+      loaderRoot.setAttribute('aria-valuenow', String(Math.round(lState.progress)));
+
+      if (lState.progress > 32) {
+        const dockX = LW < 640 ? 0.10 : 0.30;
+        const t = Math.min(1, (lState.progress - 32) / 52);
+        lState.shopX = 1.38 + (dockX - 1.38) * easeOutCubic(t);
+      }
+
+      // First Gate (Gate 1: Left Repair Bay) opens first for JCB Repairing!
+      if (lState.progress > 44) {
+        if (!lState.gate1SoundPlayed) {
+          lState.gate1SoundPlayed = true;
+          JCBSound.playShutterSound();
+        }
+        const g1 = Math.min(1, (lState.progress - 44) / 36);
+        lState.gate1Open = 0.12 + 0.88 * easeOutCubic(g1);
+      }
+
+      // Second Gate (Gate 2: Right Spare Parts Shop) opens right after for Spare Parts & Buyer!
+      if (lState.progress > 58) {
+        if (!lState.gate2SoundPlayed) {
+          lState.gate2SoundPlayed = true;
+          JCBSound.playShutterSound();
+        }
+        if (!lState.hornPlayed && lState.progress > 72) {
+          lState.hornPlayed = true;
+          JCBSound.playHorn(true);
+        }
+        const g2 = Math.min(1, (lState.progress - 58) / 36);
+        lState.gate2Open = 0.12 + 0.88 * easeOutCubic(g2);
+        hudMsg.textContent = 'Gate 1 Open for JCB Repair • Gate 2 Open for Genuine Spare Parts!';
+      }
+
+      lState.speedRatio = lState.progress < 70 ? 1.0 : Math.max(0.18, (100 - lState.progress) / 30);
+      JCBSound.setEngineRPM(lState.speedRatio);
+      if (hudSpeed) hudSpeed.textContent = Math.round(lState.speedRatio * 44) + ' km/h';
+      lState.worldScroll += lState.speedRatio * dt;
+      lState.wheelAngle += lState.speedRatio * dt * 10;
+
+      if (lState.progress >= 100) finishLoaderSmooth();
+    } else if (lState.phase === 'entering') {
+      lState.gate1Open = Math.min(1, lState.gate1Open + dt * 2.2);
+      lState.gate2Open = Math.min(1, lState.gate2Open + dt * 2.2);
+      lState.enterProgress = Math.min(1, lState.enterProgress + dt * 0.95);
+      JCBSound.setEngineRPM(0.25);
+      if (hudSpeed) hudSpeed.textContent = '10 km/h';
+      lState.wheelAngle += dt * 5;
+    } else if (lState.phase === 'zooming') {
+      lState.enterProgress = 1;
+      lState.cameraZoom += (3.4 - lState.cameraZoom) * (1 - Math.exp(-dt * 4.0));
+    }
+
+    renderLoader(time, dt);
+    requestAnimationFrame(loaderLoop);
+  }
+
+  document.querySelectorAll('.theme-btn').forEach((btn) => {
+    btn.addEventListener('click', () => {
+      applyLoaderThemeUI(btn.dataset.theme);
+      showToast(`Weather: ${THEMES[btn.dataset.theme].badge}`);
+    });
+  });
+
+  document.getElementById('btn-loader-horn').addEventListener('click', () => {
+    JCBSound.playHorn(true);
+    showToast('JCB 3DX Air Horn!');
+  });
+  document.getElementById('btn-loader-sound').addEventListener('click', () => {
+    const isMuted = JCBSound.toggleMute();
+    const icon = document.getElementById('loader-sound-icon');
+    if (icon) icon.className = isMuted ? 'fas fa-volume-mute text-rose-400' : 'fas fa-volume-up';
+    if (!isMuted && lState.phase !== 'done') JCBSound.startEngine();
+    showToast(isMuted ? 'Sound Muted' : 'JCB Sound Enabled');
+  });
+
+  document.getElementById('btn-express').addEventListener('click', () => {
+    lClear();
+    lState.phase = 'done';
+    JCBSound.stopEngine();
+    loaderRoot.classList.add('gone');
+    document.body.classList.remove('loading-lock');
+    siteWrapper.classList.add('ready');
+    runCounters();
+  });
+  document.getElementById('btn-replay-top').addEventListener('click', () => replayLoader());
+  document.getElementById('btn-top-horn').addEventListener('click', () => {
+    JCBSound.playHorn(true);
+    showToast('JCB 3DX Air Horn!');
+  });
+  document.getElementById('fab-horn').addEventListener('click', () => {
+    JCBSound.playHorn(true);
+    showToast('JCB 3DX Air Horn!');
+  });
+  window.SolapurJcbLoader = { replay: replayLoader };
+
+  /* All-Weather Workshop Care Tabs */
+  const SEASONS = {
+    summer: {
+      badge: 'SUMMER • 42°C SOLAPUR HEAT READY',
+      badgeCls: 'inline-block px-3 py-1 rounded-full bg-amber-500/15 border border-amber-400/35 text-amber-300 text-[11px] font-mono font-bold uppercase',
+      title: 'Radiator Coolant, Water Pump & Hydraulic Heat Protection',
+      desc: 'Extreme Solapur summers push diesel engines and hydraulic oil temperatures to the limit. Drive into Gate 1 of our Vasant Vihar shop for coolant flushes, thermostat checks, water pumps, and fresh air filters.',
+      tips: ['Radiator & Coolant Flush', 'Water Pump & Fan Belt', 'Hydraulic Oil Cooler Check']
+    },
+    rainy: {
+      badge: 'RAINY • SOLAPUR MONSOON READY',
+      badgeCls: 'inline-block px-3 py-1 rounded-full bg-sky-500/15 border border-sky-400/35 text-sky-300 text-[11px] font-mono font-bold uppercase',
+      title: 'Waterproof Wiring, Wipro Cylinder Seals & Brake Grip',
+      desc: 'Heavy monsoon mud and water wear out boom seals, kingpost bushes, and exposed electrical sensors. Our covered Vasant Vihar repair bays stay open all rainy season for seal kits, Parker hoses, and wet-brake servicing.',
+      tips: ['Wipro Seal Kits & Boots', 'Waterproof ECU & Wiring', 'Wet Brake & Greasing']
+    },
+    winter: {
+      badge: 'WINTER • SOLAPUR MORNING FOG READY',
+      badgeCls: 'inline-block px-3 py-1 rounded-full bg-cyan-500/15 border border-cyan-400/35 text-cyan-300 text-[11px] font-mono font-bold uppercase',
+      title: 'Cold-Start Battery, Starter & Hydraulic Oil Warm-Up Check',
+      desc: 'Chilly Solapur winter mornings thicken engine & hydraulic oils and stress older starter motors. Visit our Vasant Vihar bay for a quick alternator, battery load, glow-plug, and oil viscosity check so your JCB starts on the very first crank.',
+      tips: ['Starter & Battery Test', 'Genuine Engine Oil', 'Fog Work-Light Check']
+    }
+  };
+  document.querySelectorAll('.season-tab').forEach((tab) => {
+    tab.addEventListener('click', () => {
+      document.querySelectorAll('.season-tab').forEach((t) => {
+        t.className = 'season-tab px-3.5 sm:px-4 py-2 rounded-xl bg-white/5 border border-white/15 text-slate-200 hover:border-jcb text-xs font-mono font-bold uppercase cursor-pointer transition inline-flex items-center gap-1.5';
+      });
+      tab.className = 'season-tab active px-3.5 sm:px-4 py-2 rounded-xl bg-jcb text-obsidian border border-jcb text-xs font-mono font-bold uppercase cursor-pointer transition inline-flex items-center gap-1.5';
+      const s = SEASONS[tab.dataset.season];
+      if (!s) return;
+      const bEl = document.getElementById('season-badge');
+      bEl.className = s.badgeCls; bEl.textContent = s.badge;
+      document.getElementById('season-title').textContent = s.title;
+      document.getElementById('season-desc').textContent = s.desc;
+      document.getElementById('season-tips').innerHTML = s.tips.map((tip) => `<div class="p-3 rounded-xl bg-obsidian/70 border border-white/10"><i class="fas fa-check text-jcb mr-1.5"></i>${tip}</div>`).join('');
+    });
+  });
+
+  /* ==========================================================================
+     PART B: BILINGUAL EN / मराठी TOGGLE & HERO REAL SHOP PHOTO SWITCHER
+     ========================================================================== */
+  let isMarathi = false;
+  const I18N = {
+    en: {
+      hero_badge: "Solapur's #1 Real JCB Workshop & Parts Shop",
+      hero_title_1: 'JCB', hero_title_2: 'SOLAPUR', hero_title_3: 'ENTERPRISES',
+      hero_desc: 'Drive your JCB 3DX, 3CX, 4CX or JS Excavator directly to our Vasant Vihar workshop. We keep 2,000+ genuine OEM spare parts ready on our shelves along with expert hydraulic, engine, gearbox, fuel injection & welding specialists — open daily 10:00 AM to 11:30 PM.',
+      cta_directions: 'Get Shop Directions'
+    },
+    mr: {
+      hero_badge: 'सोलापूरमधील #१ जेसीबी रिपेअरिंग आणि स्पेअर पार्ट्स शॉप',
+      hero_title_1: 'जेसीबी', hero_title_2: 'सोलापूर', hero_title_3: 'इंटरप्रायझेस',
+      hero_desc: 'तुमचे JCB 3DX, 3CX, 4CX किंवा JS एक्स्कॅव्हेटर थेट आमच्या वसंत विहार वर्कशॉपमध्ये आणा. २,०००+ अस्सल OEM स्पेअर पार्ट्स, हायड्रोलिक, इंजिन, गिअरबॉक्स, फ्युएल इंजेक्शन आणि वेल्डिंग तज्ञ एकाच छताखाली — दररोज सकाळी १०:०० ते रात्री ११:३० सुरू.',
+      cta_directions: 'दुकानाचा मार्ग (Map)'
+    }
+  };
+  document.getElementById('lang-toggle').addEventListener('click', () => {
+    isMarathi = !isMarathi;
+    const dict = isMarathi ? I18N.mr : I18N.en;
+    document.querySelectorAll('[data-i18n]').forEach((el) => {
+      const k = el.dataset.i18n;
+      if (dict[k]) el.textContent = dict[k];
+    });
+    showToast(isMarathi ? 'भाषा: मराठी' : 'Language: English');
+  });
+
+  const heroShopImg = document.getElementById('hero-shop-img');
+  document.querySelectorAll('.hero-img-btn').forEach((btn) => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('.hero-img-btn').forEach((b) => {
+        b.className = 'hero-img-btn px-2.5 py-1 rounded-lg bg-black/75 hover:bg-white/20 border border-white/15 text-white text-[10px] font-mono uppercase cursor-pointer';
+      });
+      btn.className = 'hero-img-btn px-2.5 py-1 rounded-lg bg-jcb text-obsidian text-[10px] font-mono font-bold uppercase cursor-pointer';
+      if (heroShopImg) heroShopImg.src = btn.dataset.himg;
+    });
+  });
+
+  /* ==========================================================================
+     PART C: INTERACTIVE JCB 3DX ANATOMY EXPLORER
+     ========================================================================== */
+  const SPOTS = {
+    backhoe: {
+      badge: 'SYSTEM 01 • BACKHOE & HYDRAULICS',
+      title: 'Backhoe Boom, Dipper & Wipro Cylinders',
+      desc: 'Full hydraulic cylinder resealing, Parker high-pressure hose crimping, boom & dipper welding, and hardened kingpost pin-bush replacements done inside our bay.',
+      list: ['Wipro Hydraulic Cylinder Seal Kits & Rods', 'Parker 4-Wire High-Pressure Hydraulic Hoses', 'Heavy-Duty Trench Bucket Teeth, Pins & Bushes'],
+      wa: 'Hello JCB Solapur Enterprises, I want to visit for JCB Backhoe / Hydraulic repair.'
+    },
+    cabin: {
+      badge: 'SYSTEM 02 • CABIN & ELECTRONICS',
+      title: 'Cabin Electricals, Sensors & ECU',
+      desc: 'Complete JCB wiring harness troubleshooting, alternator & starter motor testing, dashboard meters, ignition switches, and safety beacons.',
+      list: ['Heavy-Duty Starter Motors & Alternators', 'ECU Sensors, Solenoids & Relay Kits', 'Work Lights, Amber Roof Beacons & Cabin Switches'],
+      wa: 'Hello JCB Solapur Enterprises, I want to visit for JCB Electrical / ECU work.'
+    },
+    engine: {
+      badge: 'SYSTEM 03 • ENGINE & FUEL INJECTION',
+      title: 'EcoMAX Diesel Engine & Fuel Injection',
+      desc: 'Complete engine overhaul & genuine OEM internals stocked right at our Vasant Vihar shop — pistons, liners, crankshafts, fuel injectors, water pumps, and turbo assemblies.',
+      list: ['Piston, Rings, Cylinder Liners & Gasket Sets', 'Precision Fuel Injection Pump & Nozzle Calibration', 'OEM Air, Oil & Fuel Filter Maintenance Kits'],
+      wa: 'Hello JCB Solapur Enterprises, I want to visit for JCB Engine / Fuel Injection work.'
+    },
+    gearbox: {
+      badge: 'SYSTEM 04 • TRANSMISSION & AXLE',
+      title: 'Synchro Shuttle Gearbox & 4WD Drivetrain',
+      desc: 'Smooth forward/reverse power restoration with genuine clutch plates, torque converters, crown wheel pinions, brake discs, and hub bearings.',
+      list: ['Synchro Shuttle Friction & Counter Plates', 'Torque Converters & Transmission Oil Filters', 'Axle Shafts, Hub Seals & Wet Brake Discs'],
+      wa: 'Hello JCB Solapur Enterprises, I want to visit for JCB Gearbox / Transmission repair.'
+    },
+    loader: {
+      badge: 'SYSTEM 05 • FRONT LOADER & WELDING',
+      title: 'Front Loader Arms, Bucket & Welding',
+      desc: 'Heavy-duty front loader cylinder repair, 4-in-1 bucket edge welding, tooth replacement, and structural pivot pin-bush overhauls.',
+      list: ['Loader Lift & Tilt Hydraulic Cylinder Kits', 'Hardened Front Bucket Teeth & Side Cutters', 'Heavy Structural Welding & Pin-Bush Fitment'],
+      wa: 'Hello JCB Solapur Enterprises, I want to visit for JCB Front Loader / Welding work.'
+    }
+  };
+
+  document.querySelectorAll('.hotspot-btn').forEach((btn) => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('.hotspot-btn').forEach((b) => b.classList.remove('active'));
+      btn.classList.add('active');
+      const s = SPOTS[btn.dataset.spot];
+      if (!s) return;
+      document.getElementById('spot-badge').textContent = s.badge;
+      document.getElementById('spot-title').textContent = s.title;
+      document.getElementById('spot-desc').textContent = s.desc;
+      document.getElementById('spot-list').innerHTML = s.list.map((li) => `<li class="flex items-center gap-2"><i class="fas fa-check text-jcb text-xs"></i> ${li}</li>`).join('');
+      document.getElementById('spot-wa').href = `https://wa.me/917028752721?text=${encodeURIComponent(s.wa)}`;
+    });
+  });
+
+  /* ==========================================================================
+     PART D: INTERACTIVE THREE.JS 3D SPARE PARTS WITH PART NAMES & DRAG SPIN
+     ========================================================================== */
+  const PARTS_3D_DATA = [
+    { id: 'pump', name: 'Hydraulic Main Pump', code: '3D-HYD-01', cat: 'Hydraulic', model: 'JCB 3DX / 3CX / 4CX', desc: 'High-pressure gear & piston main pump stocked at our Vasant Vihar counter.' },
+    { id: 'piston', name: 'Engine Piston & Liner Kit', code: '3D-ENG-02', cat: 'Engine', model: 'JCB EcoMAX / 444', desc: 'Genuine cylinder liner, piston, rings & gudgeon pin overhaul set.' },
+    { id: 'seal', name: 'Wipro Hydraulic Seal Kit', code: '3D-HYD-03', cat: 'Hydraulic', model: 'Boom / Dipper / Bucket', desc: 'Heavy-duty Wipro & OEM polyurethane high-pressure cylinder seals.' },
+    { id: 'gearbox', name: 'Synchro Shuttle Gearbox Kit', code: '3D-TRN-04', cat: 'Transmission', model: 'JCB 3DX / 4DX', desc: 'Clutch plates, friction discs, synchro rings & transmission bearings.' },
+    { id: 'injector', name: 'Fuel Injector & Nozzle Set', code: '3D-ENG-05', cat: 'Engine', model: 'JCB 3DX / JS140', desc: 'Precision calibrated diesel fuel injectors for maximum mileage & power.' },
+    { id: 'filter', name: 'OEM Filter Service Pack', code: '3D-MNT-06', cat: 'Maintenance', model: 'All JCB Models', desc: 'Genuine air, engine oil, fuel & hydraulic return filter kit.' },
+    { id: 'starter', name: 'Heavy-Duty Starter Motor', code: '3D-ELC-07', cat: 'Electrical', model: 'JCB 3DX / JS205', desc: 'High-torque starter motor bench-tested at our workshop.' },
+    { id: 'alternator', name: 'Alternator & Charging Unit', code: '3D-ELC-08', cat: 'Electrical', model: 'JCB 3DX / 3CX', desc: 'Heavy-duty alternator with built-in voltage regulator & pulley.' },
+    { id: 'bucket', name: 'Bucket Teeth, Pins & Bushes', code: '3D-MNT-09', cat: 'Maintenance', model: 'Front & Rear Bucket', desc: 'Hardened alloy steel bucket teeth, side cutters, kingpost pins & bushes.' },
+    { id: 'converter', name: 'Torque Converter Assembly', code: '3D-TRN-10', cat: 'Transmission', model: 'JCB 3DX / 4CX', desc: 'Balanced heavy-duty torque converter for smooth pulling power.' },
+    { id: 'hose', name: 'Parker Hydraulic Hose Line', code: '3D-HYD-11', cat: 'Hydraulic', model: 'All Boom & Loader Lines', desc: '4-wire spiral steel reinforced Parker hoses with crimped fittings.' },
+    { id: 'waterpump', name: 'Water Pump & Impeller Kit', code: '3D-ENG-12', cat: 'Engine', model: 'JCB EcoMAX / Turbo', desc: 'OEM coolant water pump, thermostat valve & heavy-duty fan belt.' }
+  ];
+
+  const partsGrid = document.getElementById('parts-grid');
+  const partsSearch = document.getElementById('parts-search');
+  let activePartCat = 'All';
+  let active3DScenes = [];
+
+  function clear3DScenes() {
+    active3DScenes.forEach((item) => {
+      try {
+        if (item.renderer && item.renderer.domElement) {
+          item.renderer.dispose();
+        }
+      } catch (e) {}
+    });
+    active3DScenes = [];
+  }
+
+  function buildPartMesh(partId) {
+    const group = new THREE.Group();
+    const steelMat = new THREE.MeshStandardMaterial({ color: 0xcbd5e1, metalness: 0.82, roughness: 0.26 });
+    const darkMat = new THREE.MeshStandardMaterial({ color: 0x334155, metalness: 0.65, roughness: 0.4 });
+    const goldMat = new THREE.MeshStandardMaterial({ color: 0xf9c000, metalness: 0.45, roughness: 0.35 });
+    const copperMat = new THREE.MeshStandardMaterial({ color: 0xd97706, metalness: 0.78, roughness: 0.28 });
+    const rubberMat = new THREE.MeshStandardMaterial({ color: 0x1e293b, metalness: 0.15, roughness: 0.75 });
+    const cyanMat = new THREE.MeshStandardMaterial({ color: 0x38bdf8, metalness: 0.3, roughness: 0.4 });
+
+    if (partId === 'pump' || partId === 'waterpump') {
+      const body = new THREE.Mesh(new THREE.CylinderGeometry(0.95, 0.95, 1.3, 24), partId === 'pump' ? steelMat : goldMat);
+      body.rotation.x = Math.PI / 2;
+      group.add(body);
+      const flange = new THREE.Mesh(new THREE.CylinderGeometry(1.15, 1.15, 0.2, 24), darkMat);
+      flange.rotation.x = Math.PI / 2; flange.position.z = 0.55;
+      group.add(flange);
+      const shaft = new THREE.Mesh(new THREE.CylinderGeometry(0.28, 0.28, 0.7, 16), steelMat);
+      shaft.rotation.x = Math.PI / 2; shaft.position.z = 0.9;
+      group.add(shaft);
+      const port = new THREE.Mesh(new THREE.CylinderGeometry(0.32, 0.32, 0.75, 16), copperMat);
+      port.position.set(0.55, 0.75, 0); port.rotation.z = -0.5;
+      group.add(port);
+    } else if (partId === 'piston') {
+      const skirt = new THREE.Mesh(new THREE.CylinderGeometry(1.0, 1.0, 1.35, 28), steelMat);
+      group.add(skirt);
+      for (let i = 0; i < 3; i++) {
+        const ring = new THREE.Mesh(new THREE.TorusGeometry(1.02, 0.045, 10, 28), goldMat);
+        ring.rotation.x = Math.PI / 2; ring.position.y = 0.48 - i * 0.2;
+        group.add(ring);
+      }
+      const pin = new THREE.Mesh(new THREE.CylinderGeometry(0.26, 0.26, 2.3, 18), darkMat);
+      pin.rotation.z = Math.PI / 2; pin.position.y = -0.15;
+      group.add(pin);
+    } else if (partId === 'seal') {
+      [1.15, 0.85, 0.58].forEach((rad, idx) => {
+        const ring = new THREE.Mesh(new THREE.TorusGeometry(rad, 0.14, 14, 28), idx === 1 ? goldMat : rubberMat);
+        ring.rotation.x = 0.65; ring.position.set((idx - 1) * 0.22, (idx - 1) * 0.14, idx * 0.12);
+        group.add(ring);
+      });
+    } else if (partId === 'gearbox' || partId === 'converter') {
+      const gear = new THREE.Mesh(new THREE.CylinderGeometry(1.15, 1.15, 0.36, 24), steelMat);
+      gear.rotation.x = Math.PI / 2;
+      group.add(gear);
+      const teethCount = 16;
+      for (let t = 0; t < teethCount; t++) {
+        const ang = (t / teethCount) * Math.PI * 2;
+        const tooth = new THREE.Mesh(new THREE.BoxGeometry(0.2, 0.24, 0.36), partId === 'converter' ? goldMat : copperMat);
+        tooth.position.set(Math.cos(ang) * 1.22, Math.sin(ang) * 1.22, 0);
+        tooth.rotation.z = ang;
+        group.add(tooth);
+      }
+      const hub = new THREE.Mesh(new THREE.CylinderGeometry(0.55, 0.55, 0.65, 20), darkMat);
+      hub.rotation.x = Math.PI / 2;
+      group.add(hub);
+    } else if (partId === 'injector') {
+      const body = new THREE.Mesh(new THREE.CylinderGeometry(0.32, 0.32, 1.5, 18), darkMat);
+      body.position.y = 0.35;
+      group.add(body);
+      const topCap = new THREE.Mesh(new THREE.CylinderGeometry(0.42, 0.42, 0.45, 18), goldMat);
+      topCap.position.y = 1.25;
+      group.add(topCap);
+      const nozzle = new THREE.Mesh(new THREE.ConeGeometry(0.26, 0.9, 18), steelMat);
+      nozzle.rotation.x = Math.PI; nozzle.position.y = -0.85;
+      group.add(nozzle);
+    } else if (partId === 'filter') {
+      const can = new THREE.Mesh(new THREE.CylinderGeometry(0.95, 0.95, 1.65, 24), goldMat);
+      group.add(can);
+      const band = new THREE.Mesh(new THREE.CylinderGeometry(0.97, 0.97, 0.32, 24), darkMat);
+      band.position.y = 0.25;
+      group.add(band);
+      const cap = new THREE.Mesh(new THREE.CylinderGeometry(0.85, 0.85, 0.14, 24), steelMat);
+      cap.position.y = 0.88;
+      group.add(cap);
+    } else if (partId === 'starter' || partId === 'alternator') {
+      const housing = new THREE.Mesh(new THREE.CylinderGeometry(0.85, 0.85, 1.55, 24), partId === 'starter' ? darkMat : steelMat);
+      housing.rotation.z = Math.PI / 2;
+      group.add(housing);
+      const solenoid = new THREE.Mesh(new THREE.CylinderGeometry(0.38, 0.38, 1.05, 18), goldMat);
+      solenoid.rotation.z = Math.PI / 2; solenoid.position.set(0.1, 0.82, 0);
+      group.add(solenoid);
+      const gearEnd = new THREE.Mesh(new THREE.CylinderGeometry(0.26, 0.26, 0.65, 14), copperMat);
+      gearEnd.rotation.z = Math.PI / 2; gearEnd.position.set(1.05, 0, 0);
+      group.add(gearEnd);
+    } else if (partId === 'bucket') {
+      const tooth = new THREE.Mesh(new THREE.ConeGeometry(0.58, 1.65, 4), goldMat);
+      tooth.rotation.z = -Math.PI / 2; tooth.position.x = 0.25;
+      group.add(tooth);
+      const pin = new THREE.Mesh(new THREE.CylinderGeometry(0.22, 0.22, 1.35, 16), steelMat);
+      pin.position.set(-0.35, 0, 0.55);
+      group.add(pin);
+    } else {
+      const curve = new THREE.CatmullRomCurve3([
+        new THREE.Vector3(-1.1, -0.5, 0),
+        new THREE.Vector3(-0.4, 0.75, 0.35),
+        new THREE.Vector3(0.5, -0.65, -0.25),
+        new THREE.Vector3(1.15, 0.45, 0)
+      ]);
+      const hose = new THREE.Mesh(new THREE.TubeGeometry(curve, 28, 0.26, 14, false), partId === 'hose' ? rubberMat : cyanMat);
+      group.add(hose);
+      const fittingA = new THREE.Mesh(new THREE.CylinderGeometry(0.34, 0.34, 0.35, 14), goldMat);
+      fittingA.position.copy(curve.getPoint(0));
+      const fittingB = new THREE.Mesh(new THREE.CylinderGeometry(0.34, 0.34, 0.35, 14), goldMat);
+      fittingB.position.copy(curve.getPoint(1));
+      group.add(fittingA, fittingB);
+    }
+
+    return group;
+  }
+
+  function init3DPartCanvases() {
+    clear3DScenes();
+    if (typeof THREE === 'undefined') return;
+
+    document.querySelectorAll('.part-3d-box').forEach((box) => {
+      const partId = box.dataset.partId;
+      const w = Math.max(180, box.clientWidth || 260);
+      const h = Math.max(135, box.clientHeight || 195);
+
+      const scene = new THREE.Scene();
+      const camera = new THREE.PerspectiveCamera(42, w / h, 0.1, 100);
+      camera.position.set(0, 0.65, 3.6);
+      camera.lookAt(0, 0, 0);
+
+      const renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true });
+      renderer.setSize(w, h);
+      renderer.setPixelRatio(Math.min(window.devicePixelRatio || 1, 2));
+      box.innerHTML = '';
+      box.appendChild(renderer.domElement);
+
+      const ambient = new THREE.AmbientLight(0xffffff, 0.75);
+      const keyLight = new THREE.DirectionalLight(0xffe066, 1.35);
+      keyLight.position.set(3, 4, 4);
+      const rimLight = new THREE.DirectionalLight(0x38bdf8, 0.7);
+      rimLight.position.set(-3, -2, -3);
+      scene.add(ambient, keyLight, rimLight);
+
+      const mesh = buildPartMesh(partId);
+      scene.add(mesh);
+
+      let dragging = false;
+      let prevX = 0;
+      let prevY = 0;
+      let manualVelX = 0;
+      let manualVelY = 0;
+
+      const onDown = (e) => {
+        dragging = true;
+        const pt = e.touches ? e.touches[0] : e;
+        prevX = pt.clientX;
+        prevY = pt.clientY;
+      };
+      const onMove = (e) => {
+        if (!dragging) return;
+        const pt = e.touches ? e.touches[0] : e;
+        const dx = pt.clientX - prevX;
+        const dy = pt.clientY - prevY;
+        prevX = pt.clientX;
+        prevY = pt.clientY;
+        manualVelY = dx * 0.015;
+        manualVelX = dy * 0.012;
+        mesh.rotation.y += manualVelY;
+        mesh.rotation.x = Math.max(-0.9, Math.min(0.9, mesh.rotation.x + manualVelX));
+      };
+      const onUp = () => { dragging = false; };
+
+      renderer.domElement.addEventListener('mousedown', onDown);
+      window.addEventListener('mousemove', onMove);
+      window.addEventListener('mouseup', onUp);
+      renderer.domElement.addEventListener('touchstart', onDown, { passive: true });
+      window.addEventListener('touchmove', onMove, { passive: true });
+      window.addEventListener('touchend', onUp);
+
+      active3DScenes.push({
+        renderer,
+        scene,
+        camera,
+        update: () => {
+          if (!dragging) {
+            mesh.rotation.y += 0.012 + manualVelY * 0.85;
+            mesh.rotation.x += manualVelX * 0.85;
+            manualVelY *= 0.92;
+            manualVelX *= 0.92;
+          }
+          renderer.render(scene, camera);
+        }
+      });
+    });
+  }
+
+  (function loop3DParts() {
+    for (let i = 0; i < active3DScenes.length; i++) {
+      try { active3DScenes[i].update(); } catch (e) {}
+    }
+    requestAnimationFrame(loop3DParts);
+  })();
+
+  window.addEventListener('resize', () => {
+    clearTimeout(window._3dResizeTimer);
+    window._3dResizeTimer = setTimeout(init3DPartCanvases, 180);
+  });
+
+  function renderParts() {
+    const q = (partsSearch ? partsSearch.value : '').trim().toLowerCase();
+    const filtered = PARTS_3D_DATA.filter((p) => (activePartCat === 'All' || p.cat === activePartCat) && (!q || p.name.toLowerCase().includes(q) || p.cat.toLowerCase().includes(q) || p.model.toLowerCase().includes(q) || p.code.toLowerCase().includes(q)));
+    if (!filtered.length) {
+      partsGrid.innerHTML = `<div class="col-span-full text-center py-8 glass-card rounded-2xl p-6"><div class="text-jcb font-cond text-xl font-bold uppercase">Ask Our Counter Directly</div><p class="text-xs text-slate-400 mt-1 mb-4">We stock 2,000+ JCB parts in Vasant Vihar! Call or WhatsApp to check availability before visiting.</p><a href="tel:+917028752721" class="btn-jcb px-6 py-2.5 text-sm inline-flex items-center gap-2"><i class="fas fa-phone-alt"></i> Call +91 70287 52721</a></div>`;
+      return;
+    }
+    partsGrid.innerHTML = filtered.map((p) => {
+      const wa = `Hello JCB Solapur Enterprises, is ${p.name} (${p.model}) available at your Vasant Vihar shop today?`;
+      return `
+        <div class="glass-card spotlight-card rounded-2xl overflow-hidden border border-white/10 hover:border-jcb/50 transition flex flex-col justify-between group">
+          <div>
+            <div class="part-3d-box" data-part-id="${p.id}" title="Drag to spin 3D model"></div>
+            <div class="px-3.5 pt-2 flex items-center justify-between gap-2 text-[10px] font-mono">
+              <span class="px-2 py-0.5 rounded bg-jcb text-obsidian font-cond font-extrabold uppercase">${p.cat}</span>
+              <span class="text-slate-400">${p.code} • 3D</span>
+            </div>
+            <div class="p-3.5 pt-2">
+              <h3 class="font-cond text-lg sm:text-xl font-bold text-white leading-tight group-hover:text-jcb transition">${p.name}</h3>
+              <div class="text-[11px] font-mono text-amber-300/90 mt-0.5">${p.model}</div>
+              <p class="text-xs text-slate-400 mt-1.5 line-clamp-2">${p.desc}</p>
+            </div>
+          </div>
+          <div class="px-3.5 pb-3.5 pt-1 flex gap-2">
+            <a href="https://wa.me/917028752721?text=${encodeURIComponent(wa)}" target="_blank" rel="noopener" class="flex-1 py-2 px-2 rounded-xl bg-emerald-500/15 hover:bg-emerald-500 hover:text-slate-950 border border-emerald-400/40 text-emerald-300 font-cond font-bold text-xs uppercase text-center transition inline-flex items-center justify-center gap-1">
+              <i class="fab fa-whatsapp"></i> Check Stock
+            </a>
+            <a href="#contact" class="py-2 px-2.5 rounded-xl bg-white/5 hover:bg-jcb hover:text-obsidian border border-white/10 text-jcb text-xs transition flex items-center justify-center" title="Visit Shop">
+              <i class="fas fa-map-marker-alt"></i>
+            </a>
+          </div>
+        </div>
+      `;
+    }).join('');
+    init3DPartCanvases();
+  }
+  document.querySelectorAll('#parts-filters .filter-pill').forEach((btn) => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('#parts-filters .filter-pill').forEach((b) => b.classList.remove('active'));
+      btn.classList.add('active');
+      activePartCat = btn.dataset.cat;
+      renderParts();
+    });
+  });
+  if (partsSearch) partsSearch.addEventListener('input', renderParts);
+  renderParts();
+
+  /* ==========================================================================
+     PART E: SHOP VISIT PLANNER
+     ========================================================================== */
+  const GALLERY_PHOTOS = [
+    { src: 'assest/image/forntview.jpeg', cat: 'Shop' },
+    { src: 'assest/image/shop.jpeg', cat: 'Shop' },
+    { src: 'assest/image/warehouse.jpeg', cat: 'Shop' },
+    { src: 'assest/image/garage.jpeg', cat: 'Shop' },
+    { src: 'assest/image/sideview.jpeg', cat: 'Shop' },
+    { src: 'assest/image/jcb.jpeg', cat: 'Team' },
+    { src: 'assest/image/team.jpeg', cat: 'Team' },
+    { src: 'assest/image/team1.jpeg', cat: 'Team' },
+    { src: 'assest/image/team2.jpeg', cat: 'Team' },
+    { src: 'assest/image/team3.jpeg', cat: 'Team' },
+    { src: 'assest/image/team4.jpeg', cat: 'Team' },
+    { src: 'assest/image/owner.png', cat: 'Team' },
+    { src: 'assest/image/logo.png', cat: 'Shop' },
+    { src: 'assest/image/a.jpeg', cat: 'Shop' },
+    { src: 'assest/image/aa.jpeg', cat: 'Shop' },
+    { src: 'assest/image/aaa.jpeg', cat: 'Shop' },
+    { src: 'assest/image/aaaa.jpeg', cat: 'Shop' },
+    { src: 'assest/image/tool.jpeg', cat: 'Tools' },
+    { src: 'assest/image/tool2.jpeg', cat: 'Tools' },
+    { src: 'assest/image/tool3.jpeg', cat: 'Tools' },
+    { src: 'assest/image/tool4.jpeg', cat: 'Tools' },
+    { src: 'assest/image/tool5.jpeg', cat: 'Tools' },
+    { src: 'assest/image/tool6.jpeg', cat: 'Tools' },
+    { src: 'assest/image/tool7.jpeg', cat: 'Tools' },
+    { src: 'assest/image/tool8.jpeg', cat: 'Tools' },
+    { src: 'assest/image/tool9.jpeg', cat: 'Tools' },
+    { src: 'assest/image/tool10.jpeg', cat: 'Tools' },
+    { src: 'assest/image/tool11.jpeg', cat: 'Tools' },
+    { src: 'assest/image/tool12.jpeg', cat: 'Tools' },
+    { src: 'assest/image/tool13.jpeg', cat: 'Tools' }
+  ];
+
+  const photoGrid = document.getElementById('photo-grid');
+  let activePhotoCat = 'All';
+  function renderPhotos() {
+    const list = GALLERY_PHOTOS.filter((i) => activePhotoCat === 'All' || i.cat === activePhotoCat);
+    photoGrid.innerHTML = list.map((p) => `
+      <div class="group relative aspect-square rounded-2xl overflow-hidden bg-slateDark border border-white/10 hover:border-jcb/60 cursor-pointer shadow-lg transition"
+           onclick="openLightbox('${p.src}')">
+        <img src="${p.src}" alt="" loading="lazy" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+        <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
+        <span class="absolute top-2 left-2 px-2 py-0.5 rounded bg-black/75 border border-jcb/30 text-[9px] font-mono text-jcb uppercase">${p.cat}</span>
+        <span class="absolute bottom-2.5 right-2.5 w-7 h-7 rounded-full bg-jcb text-obsidian flex items-center justify-center text-xs shadow-lg"><i class="fas fa-expand"></i></span>
+      </div>
+    `).join('');
+  }
+  document.querySelectorAll('.photo-pill').forEach((btn) => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('.photo-pill').forEach((b) => b.classList.remove('active'));
+      btn.classList.add('active');
+      activePhotoCat = btn.dataset.pcat;
+      renderPhotos();
+    });
+  });
+  renderPhotos();
+
+  const GALLERY_VIDEOS = [
+    { src: 'assest/video/shop.mp4', poster: 'assest/image/forntview.jpeg', tag: 'Shop' },
+    { src: 'assest/video/shop2.mp4', poster: 'assest/image/warehouse.jpeg', tag: 'Parts' },
+    { src: 'assest/video/team1.mp4', poster: 'assest/image/team1.jpeg', tag: 'Team' },
+    { src: 'assest/video/work0.mp4', poster: 'assest/image/garage.jpeg', tag: 'Repair' },
+    { src: 'assest/video/work1.mp4', poster: 'assest/image/jcb.jpeg', tag: '3DX' },
+    { src: 'assest/video/work2.mp4', poster: 'assest/image/tool.jpeg', tag: 'Hydraulics' },
+    { src: 'assest/video/work3.mp4', poster: 'assest/image/tool4.jpeg', tag: 'Gearbox' },
+    { src: 'assest/video/work4.mp4', poster: 'assest/image/tool5.jpeg', tag: 'Engine' },
+    { src: 'assest/video/work5.mp4', poster: 'assest/image/sideview.jpeg', tag: 'Workshop' },
+    { src: 'assest/video/work6.mp4', poster: 'assest/image/shop.jpeg', tag: 'Service' }
+  ];
+  document.getElementById('video-grid').innerHTML = GALLERY_VIDEOS.map((v) => `
+    <div class="glass-card spotlight-card rounded-2xl overflow-hidden border border-white/10 hover:border-jcb/60 transition group cursor-pointer"
+         onclick="openVideoModal('${v.src}')">
+      <div class="relative aspect-video bg-black overflow-hidden">
+        <video src="${v.src}" poster="${v.poster}" muted playsinline preload="metadata" class="w-full h-full object-cover group-hover:scale-105 transition duration-500"></video>
+        <div class="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent"></div>
+        <span class="absolute top-3 left-3 px-2.5 py-1 rounded-md bg-jcb text-obsidian font-cond font-extrabold text-[10px] uppercase">${v.tag}</span>
+        <div class="absolute inset-0 flex items-center justify-center">
+          <div class="w-14 h-14 rounded-full bg-jcb/95 text-obsidian flex items-center justify-center text-lg shadow-[0_0_28px_rgba(249,192,0,0.75)] group-hover:scale-110 transition"><i class="fas fa-play ml-0.5"></i></div>
+        </div>
+      </div>
+    </div>
+  `).join('');
+
+  /* Lightbox & Video Modal (Clean, Zero Names/Captions) */
+  const imgLightbox = document.getElementById('img-lightbox');
+  const lbImg = document.getElementById('lb-img');
+  window.openLightbox = (src) => {
+    lbImg.src = src; lbImg.alt = '';
+    imgLightbox.classList.add('open');
+  };
+  const closeLightbox = () => imgLightbox.classList.remove('open');
+  document.getElementById('lb-close').addEventListener('click', closeLightbox);
+  imgLightbox.addEventListener('click', (e) => { if (e.target === imgLightbox) closeLightbox(); });
+
+  const vidModal = document.getElementById('vid-modal');
+  const vmPlayer = document.getElementById('vm-player');
+  window.openVideoModal = (src) => {
+    vmPlayer.src = src; vidModal.classList.add('open');
+    vmPlayer.play().catch(() => {});
+  };
+  const closeVideoModal = () => {
+    vmPlayer.pause(); vmPlayer.removeAttribute('src'); vmPlayer.load();
+    vidModal.classList.remove('open');
+  };
+  document.getElementById('vm-close').addEventListener('click', closeVideoModal);
+  vidModal.addEventListener('click', (e) => { if (e.target === vidModal) closeVideoModal(); });
+  document.addEventListener('keydown', (e) => { if (e.key === 'Escape') { closeLightbox(); closeVideoModal(); } });
+
+  /* ==========================================================================
+     PART G: HERO SPARKS, COUNTERS, SCROLL, SPOTLIGHT, LIVE STATUS & COPY
+     ========================================================================== */
+  const heroSparks = document.getElementById('hero-sparks');
+  if (heroSparks) {
+    const sCtx = heroSparks.getContext('2d');
+    const resizeSparks = () => { heroSparks.width = heroSparks.offsetWidth || window.innerWidth; heroSparks.height = heroSparks.offsetHeight || window.innerHeight; };
+    resizeSparks(); window.addEventListener('resize', resizeSparks);
+    const pts = Array.from({ length: 30 }, () => ({ x: Math.random() * heroSparks.width, y: Math.random() * heroSparks.height, vx: (Math.random() - 0.5) * 0.45, vy: -Math.random() * 0.65 - 0.2, r: Math.random() * 1.8 + 0.8, a: Math.random() * 0.65 + 0.2 }));
+    (function sparkLoop() {
+      sCtx.clearRect(0, 0, heroSparks.width, heroSparks.height);
+      for (const p of pts) {
+        p.x += p.vx; p.y += p.vy;
+        if (p.y < -5) { p.y = heroSparks.height + 5; p.x = Math.random() * heroSparks.width; }
+        sCtx.beginPath(); sCtx.arc(p.x, p.y, p.r, 0, Math.PI * 2); sCtx.fillStyle = `rgba(249,192,0,${p.a})`; sCtx.fill();
+      }
+      requestAnimationFrame(sparkLoop);
+    })();
+  }
+
+  function runCounters() {
+    document.querySelectorAll('.counter').forEach((el) => {
+      if (el._done) return; el._done = true;
+      const target = +el.dataset.target; let cur = 0; const step = Math.max(1, target / 45);
+      const t = setInterval(() => {
+        cur += step;
+        if (cur >= target) { el.textContent = target; clearInterval(t); }
+        else el.textContent = Math.floor(cur);
+      }, 20);
+    });
+  }
+
+  const revealObs = new IntersectionObserver((entries) => {
+    entries.forEach((en) => { if (en.isIntersecting) { en.target.classList.add('in-view'); revealObs.unobserve(en.target); } });
+  }, { threshold: 0.08 });
+  document.querySelectorAll('.reveal').forEach((el) => revealObs.observe(el));
+
+  const mobileMenu = document.getElementById('mobile-menu');
+  document.getElementById('mobile-menu-btn').addEventListener('click', () => mobileMenu.classList.toggle('hidden'));
+  document.querySelectorAll('.mobile-nav-link').forEach((a) => a.addEventListener('click', () => mobileMenu.classList.add('hidden')));
+
+  const scrollProg = document.getElementById('scroll-progress');
+  const fabTop = document.getElementById('fab-top');
+  window.addEventListener('scroll', () => {
+    const sc = window.scrollY;
+    const maxSc = document.documentElement.scrollHeight - window.innerHeight;
+    if (maxSc > 0) scrollProg.style.width = ((sc / maxSc) * 100) + '%';
+    if (sc > 450) { fabTop.classList.remove('hidden'); fabTop.classList.add('flex'); }
+    else { fabTop.classList.add('hidden'); fabTop.classList.remove('flex'); }
+  }, { passive: true });
+  fabTop.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+
+  const liveBadge = document.getElementById('live-shop-badge');
+  function updateLiveStatus() {
+    if (!liveBadge) return;
+    const now = new Date();
+    const mins = now.getHours() * 60 + now.getMinutes();
+    const open = mins >= 600 && mins <= 1410;
+    liveBadge.innerHTML = open
+      ? '<span class="w-1.5 h-1.5 rounded-full bg-emerald-400 led-pulse"></span> OPEN NOW • TILL 11:30 PM'
+      : '<span class="w-1.5 h-1.5 rounded-full bg-amber-400 led-pulse"></span> OPENS 10:00 AM';
+  }
+  updateLiveStatus();
+  setInterval(updateLiveStatus, 60000);
+
+  document.addEventListener('pointermove', (e) => {
+    const card = e.target.closest && e.target.closest('.spotlight-card');
+    if (!card) return;
+    const r = card.getBoundingClientRect();
+    card.style.setProperty('--mx', `${e.clientX - r.left}px`);
+    card.style.setProperty('--my', `${e.clientY - r.top}px`);
+  }, { passive: true });
+
+  document.querySelectorAll('.copy-btn').forEach((btn) => {
+    btn.addEventListener('click', () => {
+      const txt = btn.dataset.copy;
+      const ta = document.createElement('textarea');
+      ta.value = txt; ta.style.position = 'fixed'; ta.style.opacity = '0';
+      document.body.appendChild(ta); ta.select();
+      try { document.execCommand('copy'); showToast('Copied: ' + txt); } catch (e) { showToast(txt); }
+      document.body.removeChild(ta);
+    });
+  });
+
+  // Start loader cleanly on window load / reload
+  window.addEventListener('load', () => {
+    resizeLoader();
+    lastTs = performance.now();
+    requestAnimationFrame(loaderLoop);
+  });
+})();
+</script>
+</body>
+</html>
